@@ -5,7 +5,11 @@
     "description": "An open, source-referenced chronology of the Tariqa Maryamiyya — the Sufi order founded by Frithjof Schuon — and the wider Traditionalist School (Guénon–Schuon perennialism), with special attention to its documented connections: to Catholic traditionalism and to Brazil.",
     "language": "en",
     "lastUpdated": "2026-07-20",
-    "dataQualityNote": "This is a work-in-progress dataset about a semi-private initiatic order and, in part, living people. It is compiled only from published scholarship (Mark Sedgwick's work is the academic backbone) and participants' own public writings; sympathetic, critical and apostate sources are labeled as such; contested characterizations are attributed, never asserted in the site's own voice; dates the sources dispute are flagged with a ? mark; and no private individuals are named. Corrections against published sources are welcome."
+    "dataQualityNote": "This is a work-in-progress dataset about a semi-private initiatic order and, in part, living people. It is compiled only from published scholarship (Mark Sedgwick's work is the academic backbone) and participants' own public writings; sympathetic, critical and apostate sources are labeled as such; contested characterizations are attributed, never asserted in the site's own voice; dates the sources dispute are flagged with a ? mark; and no private individuals are named. Corrections against published sources are welcome.",
+    "vizChips": [
+      { "href": "#lineage", "label": "🕸️ Connections" },
+      { "href": "#branch-timeline", "label": "🌿 Branches" }
+    ]
   },
   "facts": [
     {
@@ -767,6 +771,198 @@
         "sources": [
           "sedgwick-blog-brazil-today"
         ]
+      }
+    ]
+  },
+  "lineage": {
+    "heading": "Connections graph",
+    "navLabel": "Connections",
+    "note": "The order's documented connections as a typed-edge graph. SOLID edges mark initiation or membership in the silsila; DASHED edges mark association or reference — a personal follower who was never a member, or a cross-link to a sibling project — and never imply initiation. Membership is asserted only where a source documents it; adjacency is never read as initiation, and every contested claim is attributed on its node.",
+    "edgeLegend": {
+      "direct": "Initiation / membership (silsila)",
+      "indirect": "Association / reference (follower or cross-link — not initiation)"
+    },
+    "trees": [
+      {
+        "title": "The Maryamiyya silsila and its circle",
+        "summary": "Schuon's line from the Alawiyya, its initiated members, and the Christian and Brazilian followers the record keeps distinct from members.",
+        "sources": ["wikipedia-maryamiyya", "sedgwick-book"],
+        "root": {
+          "name": "Shaykh Ahmad al-Alawi",
+          "detail": "Alawiyya, Mostaganem (d. 1934)",
+          "sources": ["wikipedia-maryamiyya"],
+          "children": [
+            {
+              "name": "Frithjof Schuon",
+              "detail": "initiated in the Alawiyya c. 1932; independent shaykh 1936; 'Maryamiyya' from 1969",
+              "status": "founder and shaykh, 1936–1992",
+              "sources": ["wikipedia-schuon", "wikipedia-maryamiyya"],
+              "children": [
+                { "name": "Titus Burckhardt", "detail": "closest lifelong collaborator", "sources": ["wikipedia-burckhardt"] },
+                { "name": "Seyyed Hossein Nasr", "detail": "muqaddam; Washington line", "sources": ["wikipedia-nasr", "upton-confession"] },
+                { "name": "Martin Lings", "detail": "London line; advised the Brazilian branch", "sources": ["wikipedia-lings"] },
+                { "name": "Victor Danner", "detail": "founded the Bloomington chapter, 1967", "sources": ["wikipedia-danner"] },
+                { "name": "Huston Smith", "detail": "joined the order, 1974", "sources": ["sedgwick-blog-smith"] },
+                { "name": "Whitall Perry", "detail": "member of Schuon's circle", "sources": ["wikipedia-perry"] },
+                {
+                  "name": "Olavo de Carvalho",
+                  "detail": "initiated 1986; muqaddam in Brazil",
+                  "status": "member 1986 until his break at the end of the 1980s (dates disputed)",
+                  "sources": ["wikipedia-olavo", "sedgwick-blog-brazil"]
+                },
+                {
+                  "name": "Rama P. Coomaraswamy",
+                  "edge": "indirect",
+                  "edgeLabel": "follower, not a member",
+                  "detail": "personal follower of Schuon; per Sedgwick (AtMW p.161) never a formal Maryamiyya member",
+                  "sources": ["sedgwick-atmw-archive"],
+                  "children": [
+                    {
+                      "name": "SSPX Ridgefield seminary (professor, to c. 1983)",
+                      "edge": "indirect",
+                      "edgeLabel": "cross-link → fsspx",
+                      "detail": "his Catholic-traditionalist bridge — see the fsspx project",
+                      "sources": ["academia-rama"]
+                    },
+                    {
+                      "name": "Sedevacantist priesthood (1999, Thục-line, López-Gastón)",
+                      "edge": "indirect",
+                      "edgeLabel": "cross-link → fsspx",
+                      "detail": "ordained 1999 per his own published account — the sedevacantist world",
+                      "sources": ["rama-validity-wayback"]
+                    }
+                  ]
+                },
+                {
+                  "name": "Jean Borella",
+                  "edge": "indirect",
+                  "edgeLabel": "follower, not a member",
+                  "detail": "led a Catholic group; per Sedgwick (p.161) 'none of these Christians were actually members of the Maryamiyya'",
+                  "sources": ["sedgwick-atmw-archive", "wikipedia-borella"]
+                },
+                {
+                  "name": "James S. Cutsinger",
+                  "edge": "indirect",
+                  "edgeLabel": "follower, not a member",
+                  "detail": "per Sedgwick (2023) 'a leading follower … though never (as an Orthodox Christian) a formal member of the tariqa'",
+                  "sources": ["sedgwick-blog-baltimore"]
+                },
+                {
+                  "name": "Charles Upton",
+                  "edge": "indirect",
+                  "edgeLabel": "adjacent, not a member",
+                  "detail": "adjacent by his own 2017 account — his wife was the Maryamiyya initiate (through Nasr); he a Nimatullahi / 'Alawiyya-silsila initiate",
+                  "sources": ["upton-confession"]
+                },
+                {
+                  "name": "Wolfgang Smith",
+                  "edge": "indirect",
+                  "edgeLabel": "affinity, not membership",
+                  "detail": "Catholic perennialist; documented engagement with Nasr; no order membership documented",
+                  "sources": ["wikipedia-wolfgang-smith", "sacredweb-smith-memoriam"]
+                },
+                {
+                  "name": "Mateus Soares de Azevedo",
+                  "edge": "indirect",
+                  "edgeLabel": "World Wisdom milieu; no membership self-disclosed",
+                  "detail": "Brazilian perennialist author/translator in the Schuonian/World Wisdom milieu",
+                  "sources": ["wikipedia-azevedo"]
+                },
+                {
+                  "name": "Traditionalist School (perennialism)",
+                  "edge": "indirect",
+                  "edgeLabel": "school of ideas → perennialism project",
+                  "detail": "the current of ideas — documented in the sibling perennialism project, not duplicated here",
+                  "sources": ["wikipedia-traditionalist-school"]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "The rival Guénonian-orthodox line (Vâlsan) — not Maryamiyya",
+        "summary": "Set apart deliberately: Vâlsan's Paris branch separated from Schuon's line in 1950 and is not part of the Maryamiyya.",
+        "separate": true,
+        "sources": ["wikipedia-valsan", "sedgwick-book"],
+        "root": {
+          "name": "René Guénon",
+          "detail": "backed the 1950 separation",
+          "sources": ["wikipedia-guenon"],
+          "children": [
+            {
+              "name": "Michel Vâlsan (Mustafa Abd al-Aziz)",
+              "detail": "led the Paris Alawiyya; separated it from Schuon's branch in 1950 with Guénon's approval",
+              "status": "the sharia-observant 'Guénonian-orthodox' line — NOT Maryamiyya",
+              "sources": ["wikipedia-valsan", "sedgwick-book"]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "branchTimeline": {
+    "heading": "Branches over time",
+    "navLabel": "Branches",
+    "note": "The order's line and its divisions as a horizontal timeline — from the Alawiyya parentage through Schuon's independent branch, the Marian turn and the moves to Lausanne and Bloomington, to the autonomous post-1998 branches and the Brazilian branch and Olavo's break. Contested dates are flagged in the notes below and never resolved by preference.",
+    "start": 1932,
+    "end": 2026,
+    "trunk": {
+      "id": "maryamiyya",
+      "label": "Alawiyya → Schuon's Maryamiyya",
+      "start": 1932,
+      "note": "A branch of the Alawiyya of Shaykh Ahmad al-Alawi: Schuon initiated c. 1932 (Wikipedia's articles date the stay 1932 or 1933–34 — recorded, not resolved), independent shaykh from 1936, Marian devotion from the reported 1965 visions, formally 'Maryamiyya' from 1969; directed from Lausanne 1941–1980 and Bloomington from 1980.",
+      "sources": ["wikipedia-maryamiyya", "wikipedia-schuon", "sedgwick-book"]
+    },
+    "branches": [
+      {
+        "id": "valsan",
+        "label": "Vâlsan / Paris line (not Maryami)",
+        "year": 1950,
+        "from": "maryamiyya",
+        "note": "Michel Vâlsan separated the Paris Alawiyya from Schuon's branch with Guénon's approval — the sharia-observant 'Guénonian-orthodox' line; not the Maryamiyya.",
+        "sources": ["sedgwick-book", "wikipedia-valsan"]
+      },
+      {
+        "id": "brazil",
+        "label": "Brazilian branch (Olavo, muqaddam → break)",
+        "year": 1986,
+        "end": 1989,
+        "from": "maryamiyya",
+        "note": "Olavo de Carvalho initiated at Bloomington and appointed muqaddam in Brazil — founding dated 1986 (Sedgwick) or 1987 (Brazilian sources); his break is dated 1987 (Bunker da Cultura), 'the late 1980s' (Sedgwick), or an expelled-1987–91 window (Jardim das Aflições) — a three-way disagreement recorded, not resolved.",
+        "sources": ["sedgwick-blog-brazil", "bunker-olavo", "jardim-blog"]
+      },
+      {
+        "id": "brazil-centers",
+        "label": "Brazilian centers (post-Olavo)",
+        "year": 1989,
+        "from": "maryamiyya",
+        "note": "After Olavo's departure, Brazilian centers (one at São José dos Campos) continued, per the abstract of Sedgwick's Aries article — one restricting itself to Traditionalist doctrine, the other turning to T'ai chi and indigenous religion; affiliations reported to the London (Lings) and Washington (Nasr) lines.",
+        "sources": ["sedgwick-aries-brazil", "sedgwick-blog-brazil"]
+      },
+      {
+        "id": "washington",
+        "label": "Washington line (Nasr)",
+        "year": 1998,
+        "from": "maryamiyya",
+        "note": "One of the autonomous zawiyas after Schuon's retirement (1992) and death (1998), commonly associated with Seyyed Hossein Nasr — a framing that coexists with Wikipedia's no-named-successor account.",
+        "sources": ["wikipedia-nasr", "wikipedia-maryamiyya"]
+      },
+      {
+        "id": "london",
+        "label": "London line (Lings)",
+        "year": 1998,
+        "end": 2005,
+        "from": "maryamiyya",
+        "note": "The autonomous line associated with Martin Lings until his death in 2005.",
+        "sources": ["wikipedia-lings"]
+      },
+      {
+        "label": "Washington–Baltimore branch (2017 separation)",
+        "year": 2017,
+        "from": "washington",
+        "note": "Per Sedgwick (16 Jan 2023), a new and independent branch separated with Terry Moore and Hasan Awan; James Cutsinger is associated with it in Sedgwick's account (attributed).",
+        "sources": ["sedgwick-blog-baltimore"]
       }
     ]
   },
