@@ -12,9 +12,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const { glossaryMarkerIds } = require('../build.js');
 
 const ROOT = path.join(__dirname, '..');
 const FILE = 'data/chronology.json';
+const GLOSSARY_TERMS_FILE = 'data/glossary-terms.json';
 const errors = [];
 
 const isStr = (v) => typeof v === 'string' && v.length > 0;
@@ -41,6 +43,15 @@ else {
   }
   if (d.meta.lastUpdated && !/^\d{4}-\d{2}-\d{2}$/.test(d.meta.lastUpdated)) {
     err(`meta.lastUpdated must be YYYY-MM-DD, got ${d.meta.lastUpdated}`);
+  }
+  // Optional header pill links to visual sections (viz-chips).
+  if (d.meta.vizChips !== undefined) {
+    if (!isArr(d.meta.vizChips)) err('meta.vizChips must be an array');
+    else d.meta.vizChips.forEach((c, i) => {
+      const at = `meta.vizChips[${i}]`;
+      if (!isStr(c.href) || !c.href.startsWith('#')) err(`${at}.href must be a "#section" anchor`);
+      if (!isStr(c.label)) err(`${at}.label missing`);
+    });
   }
 }
 
@@ -121,6 +132,93 @@ if (d.organizations !== undefined) {
   });
 }
 
+// ---- lineage (genealogy trees; alias episcopalLineage) --------------------
+function checkLineageNode(node, at) {
+  if (!node || !isStr(node.name)) return err(`${at}.name missing`);
+  checkSources(at, node.sources, true);
+  if (node.edge !== undefined && node.edge !== 'direct' && node.edge !== 'indirect') {
+    err(`${at}.edge must be "direct" or "indirect", got "${node.edge}"`);
+  }
+  if (node.edgeLabel !== undefined && !isStr(node.edgeLabel)) err(`${at}.edgeLabel must be a string`);
+  if (node.children !== undefined) {
+    if (!isArr(node.children)) return err(`${at}.children must be an array`);
+    node.children.forEach((c, i) => checkLineageNode(c, `${at}.children[${i}]`));
+  }
+}
+if (d.lineage !== undefined && d.episcopalLineage !== undefined) {
+  err('declare either lineage or episcopalLineage (alias), not both');
+}
+const lineage = d.lineage !== undefined ? d.lineage : d.episcopalLineage;
+const lineageKey = d.lineage !== undefined ? 'lineage' : 'episcopalLineage';
+if (lineage !== undefined) {
+  if (!isStr(lineage.note)) err(`${lineageKey}.note missing`);
+  for (const k of ['heading', 'navLabel']) {
+    if (lineage[k] !== undefined && !isStr(lineage[k])) err(`${lineageKey}.${k} must be a string`);
+  }
+  if (!isArr(lineage.trees) || lineage.trees.length === 0) {
+    err(`${lineageKey}.trees must be a non-empty array`);
+  } else {
+    lineage.trees.forEach((t, i) => {
+      const at = `${lineageKey}.trees[${i}]`;
+      if (!isStr(t.title)) err(`${at}.title missing`);
+      if (t.separate !== undefined && typeof t.separate !== 'boolean') err(`${at}.separate must be boolean`);
+      checkSources(at, t.sources, true);
+      checkLineageNode(t.root, `${at}.root`);
+    });
+  }
+}
+
+// ---- branchTimeline ("subway diagram") ------------------------------------
+if (d.branchTimeline !== undefined) {
+  const bt = d.branchTimeline;
+  const at = 'branchTimeline';
+  for (const k of ['heading', 'navLabel', 'note']) {
+    if (bt[k] !== undefined && !isStr(bt[k])) err(`${at}.${k} must be a string`);
+  }
+  if (bt.pxPerYear !== undefined && (!isNum(bt.pxPerYear) || bt.pxPerYear <= 0)) {
+    err(`${at}.pxPerYear must be a positive number`);
+  }
+  if (!bt.trunk) err(`${at}.trunk missing`);
+  else {
+    if (!isStr(bt.trunk.label)) err(`${at}.trunk.label missing`);
+    if (!isNum(bt.trunk.start)) err(`${at}.trunk.start must be a year (number)`);
+    checkSources(`${at}.trunk`, bt.trunk.sources, true);
+  }
+  const startYear = isNum(bt.start) ? bt.start : bt.trunk && bt.trunk.start;
+  if (!isNum(bt.end)) err(`${at}.end missing (the year the diagram runs to)`);
+  else if (isNum(startYear) && bt.end <= startYear) err(`${at}.end must be after the start year`);
+  if (!isArr(bt.branches) || bt.branches.length === 0) {
+    err(`${at}.branches must be a non-empty array`);
+  } else {
+    // `from` must resolve to the trunk or an EARLIER branch (lanes are
+    // assigned in listing order, so forks always point upward).
+    const ids = new Set([(bt.trunk && bt.trunk.id) || 'trunk']);
+    bt.branches.forEach((b, i) => {
+      const bAt = `${at}.branches[${i}]`;
+      if (!isStr(b.label)) err(`${bAt}.label missing`);
+      if (!isNum(b.year)) err(`${bAt}.year must be a number`);
+      else {
+        if (isNum(startYear) && b.year < startYear) err(`${bAt}.year ${b.year} is before the timeline start ${startYear}`);
+        if (isNum(bt.end) && b.year > bt.end) err(`${bAt}.year ${b.year} is after branchTimeline.end ${bt.end}`);
+      }
+      if (b.end !== undefined) {
+        if (!isNum(b.end)) err(`${bAt}.end must be a number`);
+        else {
+          if (isNum(b.year) && b.end < b.year) err(`${bAt}.end ${b.end} is before its fork year ${b.year}`);
+          if (isNum(bt.end) && b.end > bt.end) err(`${bAt}.end ${b.end} is after branchTimeline.end ${bt.end}`);
+        }
+      }
+      if (b.from !== undefined && !ids.has(b.from)) err(`${bAt}.from: unknown id "${b.from}" (must be the trunk or an earlier branch)`);
+      if (b.id !== undefined) {
+        if (!isStr(b.id)) err(`${bAt}.id must be a string`);
+        else if (ids.has(b.id)) err(`${bAt}.id duplicated: ${b.id}`);
+        else ids.add(b.id);
+      }
+      checkSources(bAt, b.sources, true);
+    });
+  }
+}
+
 // ---- disambiguation -------------------------------------------------------
 if (d.disambiguation !== undefined) {
   const items = d.disambiguation.items;
@@ -132,6 +230,45 @@ if (d.disambiguation !== undefined) {
     checkSources(at, it.sources, false);
   });
 }
+
+// ---- glossary cross-links -------------------------------------------------
+// Every [[term-id]] marker (see build.js) must resolve to a known glossary
+// term. The known ids are read from the vendored, pinned list in
+// data/glossary-terms.json (refresh with scripts/sync-glossary-terms.js) — a
+// deterministic, offline check, consistent with this repo's no-network build.
+// A dataset with no markers is unaffected: the vendored list is consulted only
+// when a marker is actually present, so the feature stays fully opt-in.
+(function checkGlossaryLinks() {
+  // Collect every [[…]] marker across all string fields, remembering where.
+  const found = []; // { id, at }
+  const walk = (node, at) => {
+    if (typeof node === 'string') {
+      for (const id of glossaryMarkerIds(node)) found.push({ id, at });
+    } else if (Array.isArray(node)) {
+      node.forEach((v, i) => walk(v, `${at}[${i}]`));
+    } else if (node && typeof node === 'object') {
+      for (const k of Object.keys(node)) walk(node[k], at ? `${at}.${k}` : k);
+    }
+  };
+  walk(d, '');
+  if (found.length === 0) return; // feature unused — nothing to validate
+
+  let known;
+  try {
+    const g = JSON.parse(fs.readFileSync(path.join(ROOT, GLOSSARY_TERMS_FILE), 'utf8'));
+    known = new Set(g.terms || []);
+  } catch (e) {
+    err(`${found.length} glossary [[…]] marker(s) present but ${GLOSSARY_TERMS_FILE} is missing or unreadable (${e.message}). Run: node scripts/sync-glossary-terms.js`);
+    return;
+  }
+  const unknown = new Map(); // id -> first location
+  for (const { id, at } of found) {
+    if (!known.has(id) && !unknown.has(id)) unknown.set(id, at);
+  }
+  for (const [id, at] of unknown) {
+    err(`${at}: unknown glossary term id "${id}" — not in ${GLOSSARY_TERMS_FILE} (re-run scripts/sync-glossary-terms.js if the glossary added it)`);
+  }
+})();
 
 if (errors.length) {
   console.error(`✗ ${errors.length} problem(s):\n` + errors.map((e) => `  - ${e}`).join('\n'));

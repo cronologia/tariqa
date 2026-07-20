@@ -4,8 +4,12 @@
     "subtitle": "Chronology of the Maryamiyya and the Traditionalist School (1886–present)",
     "description": "An open, source-referenced chronology of the Tariqa Maryamiyya — the Sufi order founded by Frithjof Schuon — and the wider Traditionalist School (Guénon–Schuon perennialism), with special attention to its documented connections: to Catholic traditionalism and to Brazil.",
     "language": "en",
-    "lastUpdated": "2026-07-19",
-    "dataQualityNote": "This is a work-in-progress dataset about a semi-private initiatic order and, in part, living people. It is compiled only from published scholarship (Mark Sedgwick's work is the academic backbone) and participants' own public writings; sympathetic, critical and apostate sources are labeled as such; contested characterizations are attributed, never asserted in the site's own voice; dates the sources dispute are flagged with a ? mark; and no private individuals are named. Corrections against published sources are welcome."
+    "lastUpdated": "2026-07-20",
+    "dataQualityNote": "This is a work-in-progress dataset about a semi-private initiatic order and, in part, living people. It is compiled only from published scholarship (Mark Sedgwick's work is the academic backbone) and participants' own public writings; sympathetic, critical and apostate sources are labeled as such; contested characterizations are attributed, never asserted in the site's own voice; dates the sources dispute are flagged with a ? mark; and no private individuals are named. Corrections against published sources are welcome.",
+    "vizChips": [
+      { "href": "#lineage", "label": "🕸️ Connections" },
+      { "href": "#branch-timeline", "label": "🌿 Branches" }
+    ]
   },
   "facts": [
     {
@@ -371,6 +375,18 @@
       ]
     },
     {
+      "year": 1997,
+      "date": "1997",
+      "dateVerified": true,
+      "place": "Lausanne / France",
+      "title": "Borella publishes his critique of Guénon and Schuon",
+      "text": "Jean Borella publishes 'Ésotérisme guénonien et mystère chrétien' (L'Âge d'Homme, coll. Delphica; English translation 'Guénonian Esoterism and Christian Mystery', Sophia Perennis, 2004) — his public critique of Guénon's thesis on the Christian sacraments and of Schuon's supra-confessional esoterism. The Schuonian editorial by Renaud Fabbri (critical of Borella, labeled) reads him as having 'progressively distanced himself' from the school. Sources describe this departure as a gradual distancing rather than a dated break; this publication is its clearest datable public marker.",
+      "sources": [
+        "wikipedia-borella",
+        "religioperennis-fabbri"
+      ]
+    },
+    {
       "year": 2022,
       "date": "2022-01-24",
       "dateVerified": true,
@@ -379,6 +395,21 @@
       "sources": [
         "sedgwick-blog-olavo-death",
         "wikipedia-olavo"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": "2025-06/2026-01",
+      "dateVerified": true,
+      "place": "United States / online (traditionalist-Catholic media)",
+      "title": "Public polemic over 'Christian Hermeticism' and perennialist influence",
+      "text": "A multi-round public dispute among traditionalist-Catholic writers over 'Christian Hermeticism' and perennialist influence in traditionalist-Catholic publishing, running from June 2025 into January 2026. Michael Warren Davis (WM Review, 3 June 2025) and Thomas V. Mirus (CatholicCulture, 5 June 2025 — invoking the Rama Coomaraswamy precedent) criticized Sebastian Morello's book on Christian Hermeticism; Morello replied (OnePeterFive, 11 June 2025); Chris Jackson (Big Modernism, 13 June 2025) pressed the critique against Morello's defenders; and John Lamont and Morello exchanged further replies at Rorate Caeli (December 2025–January 2026). Each characterization is its named author's and this site takes no side on any accusation; the exchange is chronicled here only for its dated course, as the perennialist crossover seen from the Catholic-traditionalist side — the per-person accusations belong, minimally and BLP-grade, to the fsspx project's orbit.",
+      "sources": [
+        "wmreview-davis",
+        "catholicculture-mirus",
+        "onepeterfive-morello",
+        "bigmodernism-jackson",
+        "rorate-lamont"
       ]
     }
   ],
@@ -497,11 +528,47 @@
     },
     {
       "name": "Jean Borella",
-      "role": "French Catholic philosopher long counted a Traditionalist, who later distanced himself — criticizing Guénon on the Christian sacraments and Schuon's supra-confessional esoterism.",
-      "dates": "b. 1930",
+      "role": "French Catholic philosopher; professor of metaphysics and ancient/medieval philosophy at the University of Nancy (Nancy-II) from 1977 until his 1995 retirement. Long counted a Traditionalist and a personal follower of Schuon: per Sedgwick (Against the Modern World, p. 161) he 'led a subsidiary group of perhaps fifty Catholic Traditionalists', of whom Sedgwick writes 'None of these Christians were actually members of the Maryamiyya, but they followed Schuon personally as a Maryami would' — a follower, on this account, not an initiate. Long-time co-editor of the journal Connaissance des religions (per Sedgwick's blog, June 2022); Philitt (2017) calls him a 'disciple' of Schuon. He later distanced himself from the school — criticizing Guénon on the Christian sacraments and Schuon's 'supra-confessional esoterism'. No source found asserts a formal initiation.",
+      "dates": "b. 21 May 1930",
       "country": "France",
       "sources": [
-        "wikipedia-borella"
+        "wikipedia-borella",
+        "fr-wikipedia-borella",
+        "sedgwick-atmw-archive",
+        "sedgwick-blog-catholic-guenonian",
+        "angelico-borella",
+        "philitt-borella"
+      ]
+    },
+    {
+      "name": "James S. Cutsinger",
+      "role": "American scholar; Eastern Orthodox Christian; professor at the University of South Carolina (1980–2018) and editor/translator of several of Schuon's books. Per Sedgwick's blog (16 January 2023) he was 'a leading follower of Frithjof Schuon in a personal capacity, though never (as an Orthodox Christian) a formal member of the tariqa' — the same post associates him with Terry Moore and Hasan Awan's 2017 separation of a Washington–Baltimore branch. His documented office was secretary to the Foundation for Traditional Studies (a claim that he was 'Schuon's personal secretary' is unverified and not asserted here).",
+      "dates": "1953–2020",
+      "country": "USA",
+      "sources": [
+        "sedgwick-obit-cutsinger",
+        "sedgwick-blog-baltimore",
+        "cutsinger-net-bio"
+      ]
+    },
+    {
+      "name": "Wolfgang Smith",
+      "role": "Austrian-American mathematician, physicist and Catholic perennialist author; published by Angelico Press, with his collected works carried by his Philos-Sophia Initiative. Documented intellectual engagement with Nasr — Nasr reviewed his 'The Quantum Enigma' in the journal Sophia (1997) — but no source documents membership of any Sufi order: his relation to the school is one of affinity, not initiation. Sacred Web (a perennialist journal — sympathetic, labeled) records that he wished to be remembered 'as a believing Christian' and attended the Tridentine Mass.",
+      "dates": "1930–2024",
+      "country": "Austria / USA",
+      "sources": [
+        "wikipedia-wolfgang-smith",
+        "sacredweb-smith-memoriam",
+        "nasr-quantum-review"
+      ]
+    },
+    {
+      "name": "Charles Upton",
+      "role": "American poet and metaphysical author; adjacent to the Maryamiyya but, by his own 2017 'Confession' (self-disclosure), never a member of it. He and his wife joined the Nimatullahi Sufi Order under Javad Nurbakhsh in 1988; his wife Jennifer was later initiated into the Maryamiyya through Schuon's muqaddam Seyyed Hossein Nasr, 'though I remained with the Nimatullahis'; from 2010 he became an initiate of a separate order in an 'Alawiyya-descended silsila. He writes critically on the Schuon-scandal era. Never to be described as an 'ex-Maryami' — adjacency is not initiation.",
+      "dates": "b. 1948 (to verify)",
+      "country": "USA",
+      "sources": [
+        "upton-confession"
       ]
     },
     {
@@ -513,6 +580,25 @@
         "wikipedia-olavo",
         "sedgwick-blog-brazil",
         "sedgwick-blog-olavo-death"
+      ]
+    },
+    {
+      "name": "Mateus Soares de Azevedo",
+      "role": "Brazilian perennialist author, journalist and translator into Portuguese of Schuon, Guénon, Lings, Stoddart and Rama Coomaraswamy; a World Wisdom author ('Men of a Single Book', 2010) and editor associated with the Schuonian/World Wisdom milieu. Felipe Souza's 2023 guest post calls him a 'prolific author' of 'Schuonian Traditionalism'. No membership of the Maryamiyya is self-disclosed or documented.",
+      "dates": "1959–",
+      "country": "Brazil",
+      "sources": [
+        "wikipedia-azevedo",
+        "sedgwick-blog-brazil-today"
+      ]
+    },
+    {
+      "name": "Alberto Vasconcellos Queiroz",
+      "role": "Brazilian psychologist and public administrator in São José dos Campos; co-editor (with Mateus Soares de Azevedo) of William Stoddart's 'Remembering in a World of Forgetting' (World Wisdom, 2007) and a perennialist author in Portuguese. Any initiatic affiliation [U] — not self-disclosed and never inferred here.",
+      "dates": "b. 1963 (to verify)",
+      "country": "Brazil",
+      "sources": [
+        "worldcat-queiroz"
       ]
     }
   ],
@@ -602,6 +688,19 @@
         "wikipedia-nasr",
         "academia-rama"
       ]
+    },
+    {
+      "name": "Angelico Press / Sophia Perennis (publishers)",
+      "founded": "2011",
+      "place": "Brooklyn, New York, USA",
+      "relation": "The documented institutional bridge between Guénonian Traditionalism and traditional-Catholic publishing. Angelico Press was founded in the fall of 2011 by John Riess and James Wetmore (per Riess's own account, California Catholic Daily, 3 April 2013; both named as founders on the current about-us page). Wetmore is director of Sophia Perennis and translator/editor of volumes of the Collected Works of René Guénon. Mark Sedgwick (30 June 2022) describes Angelico as 'as much a (Guénonian) Traditionalist publisher that became popular among traditional Catholics as it was a traditional Catholic publisher that published (Guénonian) Traditionalists' — 'an overlap or even a mixing of two formerly distinct streams'. Sedgwick documents that in 2020 Angelico's site listed a joint Angelico Press / Sophia Perennis imprint (16 books) alongside a purely Sophia Perennis imprint (3 books), since removed from the site. The school-of-ideas side of Sophia Perennis is documented in the sibling perennialism project — linked here, not duplicated.",
+      "notes": "Riess (2013) describes starting the press 'with two colleagues'; the current site names two founders — a possible third founder is unidentified (recorded, not resolved). sophiaperennis.com currently resolves to a parking page (observed 19 July 2026); live status unknown.",
+      "url": "https://angelicopress.com/pages/about-us",
+      "sources": [
+        "sedgwick-blog-catholic-guenonian",
+        "calcatholic-riess",
+        "angelico-about"
+      ]
     }
   ],
   "disambiguation": {
@@ -665,6 +764,205 @@
           "sedgwick-obit-cutsinger",
           "upton-confession"
         ]
+      },
+      {
+        "title": "Brazil's Guénonian scene today (attributed to Felipe Souza, 2023)",
+        "text": "A 2023 guest post by Felipe Souza on Mark Sedgwick's Traditionalists blog — authored by Souza, not Sedgwick — maps a Portuguese-language Guénonian milieu: the René Guénon Institute for Traditional Studies (IRGET), run by the late Luiz Pontual de Oliveira; translator-teachers Marcelo Cipolla and the História Islâmica portal (Mansur Peixoto); and Luiz Gonzaga de Carvalho, Olavo's son, said to attend the classes. These roles rest on Souza's single account and are recorded as attributed, not confirmed. Souza also situates Nova Resistência (Raphael Machado) as a Duginist movement that 'flirts with Guénonism' — that is Evola/Dugin-line political Traditionalism (the 'Fourth Political Theory'), kept apart from the Schuon school per this project's three-traditionalisms rule; it is not the Maryamiyya's initiatic line.",
+        "sources": [
+          "sedgwick-blog-brazil-today"
+        ]
+      }
+    ]
+  },
+  "lineage": {
+    "heading": "Connections graph",
+    "navLabel": "Connections",
+    "note": "The order's documented connections as a typed-edge graph. SOLID edges mark initiation or membership in the silsila; DASHED edges mark association or reference — a personal follower who was never a member, or a cross-link to a sibling project — and never imply initiation. Membership is asserted only where a source documents it; adjacency is never read as initiation, and every contested claim is attributed on its node.",
+    "edgeLegend": {
+      "direct": "Initiation / membership (silsila)",
+      "indirect": "Association / reference (follower or cross-link — not initiation)"
+    },
+    "trees": [
+      {
+        "title": "The Maryamiyya silsila and its circle",
+        "summary": "Schuon's line from the Alawiyya, its initiated members, and the Christian and Brazilian followers the record keeps distinct from members.",
+        "sources": ["wikipedia-maryamiyya", "sedgwick-book"],
+        "root": {
+          "name": "Shaykh Ahmad al-Alawi",
+          "detail": "Alawiyya, Mostaganem (d. 1934)",
+          "sources": ["wikipedia-maryamiyya"],
+          "children": [
+            {
+              "name": "Frithjof Schuon",
+              "detail": "initiated in the Alawiyya c. 1932; independent shaykh 1936; 'Maryamiyya' from 1969",
+              "status": "founder and shaykh, 1936–1992",
+              "sources": ["wikipedia-schuon", "wikipedia-maryamiyya"],
+              "children": [
+                { "name": "Titus Burckhardt", "detail": "closest lifelong collaborator", "sources": ["wikipedia-burckhardt"] },
+                { "name": "Seyyed Hossein Nasr", "detail": "muqaddam; Washington line", "sources": ["wikipedia-nasr", "upton-confession"] },
+                { "name": "Martin Lings", "detail": "London line; advised the Brazilian branch", "sources": ["wikipedia-lings"] },
+                { "name": "Victor Danner", "detail": "founded the Bloomington chapter, 1967", "sources": ["wikipedia-danner"] },
+                { "name": "Huston Smith", "detail": "joined the order, 1974", "sources": ["sedgwick-blog-smith"] },
+                { "name": "Whitall Perry", "detail": "member of Schuon's circle", "sources": ["wikipedia-perry"] },
+                {
+                  "name": "Olavo de Carvalho",
+                  "detail": "initiated 1986; muqaddam in Brazil",
+                  "status": "member 1986 until his break at the end of the 1980s (dates disputed)",
+                  "sources": ["wikipedia-olavo", "sedgwick-blog-brazil"]
+                },
+                {
+                  "name": "Rama P. Coomaraswamy",
+                  "edge": "indirect",
+                  "edgeLabel": "follower, not a member",
+                  "detail": "personal follower of Schuon; per Sedgwick (AtMW p.161) never a formal Maryamiyya member",
+                  "sources": ["sedgwick-atmw-archive"],
+                  "children": [
+                    {
+                      "name": "SSPX Ridgefield seminary (professor, to c. 1983)",
+                      "edge": "indirect",
+                      "edgeLabel": "cross-link → fsspx",
+                      "detail": "his Catholic-traditionalist bridge — see the fsspx project",
+                      "sources": ["academia-rama"]
+                    },
+                    {
+                      "name": "Sedevacantist priesthood (1999, Thục-line, López-Gastón)",
+                      "edge": "indirect",
+                      "edgeLabel": "cross-link → fsspx",
+                      "detail": "ordained 1999 per his own published account — the sedevacantist world",
+                      "sources": ["rama-validity-wayback"]
+                    }
+                  ]
+                },
+                {
+                  "name": "Jean Borella",
+                  "edge": "indirect",
+                  "edgeLabel": "follower, not a member",
+                  "detail": "led a Catholic group; per Sedgwick (p.161) 'none of these Christians were actually members of the Maryamiyya'",
+                  "sources": ["sedgwick-atmw-archive", "wikipedia-borella"]
+                },
+                {
+                  "name": "James S. Cutsinger",
+                  "edge": "indirect",
+                  "edgeLabel": "follower, not a member",
+                  "detail": "per Sedgwick (2023) 'a leading follower … though never (as an Orthodox Christian) a formal member of the tariqa'",
+                  "sources": ["sedgwick-blog-baltimore"]
+                },
+                {
+                  "name": "Charles Upton",
+                  "edge": "indirect",
+                  "edgeLabel": "adjacent, not a member",
+                  "detail": "adjacent by his own 2017 account — his wife was the Maryamiyya initiate (through Nasr); he a Nimatullahi / 'Alawiyya-silsila initiate",
+                  "sources": ["upton-confession"]
+                },
+                {
+                  "name": "Wolfgang Smith",
+                  "edge": "indirect",
+                  "edgeLabel": "affinity, not membership",
+                  "detail": "Catholic perennialist; documented engagement with Nasr; no order membership documented",
+                  "sources": ["wikipedia-wolfgang-smith", "sacredweb-smith-memoriam"]
+                },
+                {
+                  "name": "Mateus Soares de Azevedo",
+                  "edge": "indirect",
+                  "edgeLabel": "World Wisdom milieu; no membership self-disclosed",
+                  "detail": "Brazilian perennialist author/translator in the Schuonian/World Wisdom milieu",
+                  "sources": ["wikipedia-azevedo"]
+                },
+                {
+                  "name": "Traditionalist School (perennialism)",
+                  "edge": "indirect",
+                  "edgeLabel": "school of ideas → perennialism project",
+                  "detail": "the current of ideas — documented in the sibling perennialism project, not duplicated here",
+                  "sources": ["wikipedia-traditionalist-school"]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "The rival Guénonian-orthodox line (Vâlsan) — not Maryamiyya",
+        "summary": "Set apart deliberately: Vâlsan's Paris branch separated from Schuon's line in 1950 and is not part of the Maryamiyya.",
+        "separate": true,
+        "sources": ["wikipedia-valsan", "sedgwick-book"],
+        "root": {
+          "name": "René Guénon",
+          "detail": "backed the 1950 separation",
+          "sources": ["wikipedia-guenon"],
+          "children": [
+            {
+              "name": "Michel Vâlsan (Mustafa Abd al-Aziz)",
+              "detail": "led the Paris Alawiyya; separated it from Schuon's branch in 1950 with Guénon's approval",
+              "status": "the sharia-observant 'Guénonian-orthodox' line — NOT Maryamiyya",
+              "sources": ["wikipedia-valsan", "sedgwick-book"]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "branchTimeline": {
+    "heading": "Branches over time",
+    "navLabel": "Branches",
+    "note": "The order's line and its divisions as a horizontal timeline — from the Alawiyya parentage through Schuon's independent branch, the Marian turn and the moves to Lausanne and Bloomington, to the autonomous post-1998 branches and the Brazilian branch and Olavo's break. Contested dates are flagged in the notes below and never resolved by preference.",
+    "start": 1932,
+    "end": 2026,
+    "trunk": {
+      "id": "maryamiyya",
+      "label": "Alawiyya → Schuon's Maryamiyya",
+      "start": 1932,
+      "note": "A branch of the Alawiyya of Shaykh Ahmad al-Alawi: Schuon initiated c. 1932 (Wikipedia's articles date the stay 1932 or 1933–34 — recorded, not resolved), independent shaykh from 1936, Marian devotion from the reported 1965 visions, formally 'Maryamiyya' from 1969; directed from Lausanne 1941–1980 and Bloomington from 1980.",
+      "sources": ["wikipedia-maryamiyya", "wikipedia-schuon", "sedgwick-book"]
+    },
+    "branches": [
+      {
+        "id": "valsan",
+        "label": "Vâlsan / Paris line (not Maryami)",
+        "year": 1950,
+        "from": "maryamiyya",
+        "note": "Michel Vâlsan separated the Paris Alawiyya from Schuon's branch with Guénon's approval — the sharia-observant 'Guénonian-orthodox' line; not the Maryamiyya.",
+        "sources": ["sedgwick-book", "wikipedia-valsan"]
+      },
+      {
+        "id": "brazil",
+        "label": "Brazilian branch (Olavo, muqaddam → break)",
+        "year": 1986,
+        "end": 1989,
+        "from": "maryamiyya",
+        "note": "Olavo de Carvalho initiated at Bloomington and appointed muqaddam in Brazil — founding dated 1986 (Sedgwick) or 1987 (Brazilian sources); his break is dated 1987 (Bunker da Cultura), 'the late 1980s' (Sedgwick), or an expelled-1987–91 window (Jardim das Aflições) — a three-way disagreement recorded, not resolved.",
+        "sources": ["sedgwick-blog-brazil", "bunker-olavo", "jardim-blog"]
+      },
+      {
+        "id": "brazil-centers",
+        "label": "Brazilian centers (post-Olavo)",
+        "year": 1989,
+        "from": "maryamiyya",
+        "note": "After Olavo's departure, Brazilian centers (one at São José dos Campos) continued, per the abstract of Sedgwick's Aries article — one restricting itself to Traditionalist doctrine, the other turning to T'ai chi and indigenous religion; affiliations reported to the London (Lings) and Washington (Nasr) lines.",
+        "sources": ["sedgwick-aries-brazil", "sedgwick-blog-brazil"]
+      },
+      {
+        "id": "washington",
+        "label": "Washington line (Nasr)",
+        "year": 1998,
+        "from": "maryamiyya",
+        "note": "One of the autonomous zawiyas after Schuon's retirement (1992) and death (1998), commonly associated with Seyyed Hossein Nasr — a framing that coexists with Wikipedia's no-named-successor account.",
+        "sources": ["wikipedia-nasr", "wikipedia-maryamiyya"]
+      },
+      {
+        "id": "london",
+        "label": "London line (Lings)",
+        "year": 1998,
+        "end": 2005,
+        "from": "maryamiyya",
+        "note": "The autonomous line associated with Martin Lings until his death in 2005.",
+        "sources": ["wikipedia-lings"]
+      },
+      {
+        "label": "Washington–Baltimore branch (2017 separation)",
+        "year": 2017,
+        "from": "washington",
+        "note": "Per Sedgwick (16 Jan 2023), a new and independent branch separated with Terry Moore and Hasan Awan; James Cutsinger is associated with it in Sedgwick's account (attributed).",
+        "sources": ["sedgwick-blog-baltimore"]
       }
     ]
   },
@@ -902,9 +1200,9 @@
     },
     {
       "id": "sedgwick-blog-brazil-today",
-      "title": "Traditionalism in Brazil today (Traditionalists blog, October 2023)",
+      "title": "Traditionalism in Brazil today (guest post by Felipe Souza on the Traditionalists blog, October 2023)",
       "url": "https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
-      "publisher": "Mark Sedgwick",
+      "publisher": "Felipe Souza (guest post on Mark Sedgwick's Traditionalists blog — attributed to Souza, not Sedgwick)",
       "type": "academic"
     },
     {
@@ -934,6 +1232,132 @@
       "url": "https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers",
       "publisher": "Dey Street; review: Foreign Affairs",
       "type": "academic"
+    },
+    {
+      "id": "fr-wikipedia-borella",
+      "title": "Jean Borella (French Wikipedia)",
+      "url": "https://fr.wikipedia.org/wiki/Jean_Borella",
+      "publisher": "Wikipedia (FR)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "religioperennis-fabbri",
+      "title": "Editorial on Jean Borella — Vincit Omnia Veritas III,1",
+      "url": "https://www.religioperennis.org/documents/Editorial/Issue5/editorialIII1.pdf",
+      "publisher": "Renaud Fabbri / religioperennis.org (Schuonian — critical of Borella, labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "angelico-borella",
+      "title": "Jean Borella — author page",
+      "url": "https://angelicopress.com/pages/jean-borella",
+      "publisher": "Angelico Press (publisher self-description — labeled)",
+      "type": "primary"
+    },
+    {
+      "id": "sedgwick-blog-catholic-guenonian",
+      "title": "Catholic and Guénonian Traditionalism, and the Angelico Press (30 June 2022)",
+      "url": "https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html",
+      "publisher": "Mark Sedgwick",
+      "type": "academic"
+    },
+    {
+      "id": "philitt-borella",
+      "title": "Jean Borella: à la recherche de l'ésotérisme catholique (2017)",
+      "url": "https://philitt.fr/2017/11/23/jean-borella-a-la-recherche-de-lesoterisme-catholique/",
+      "publisher": "Philitt (sympathetic profile — labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "calcatholic-riess",
+      "title": "From re-prints to new books (3 April 2013; text supplied by John Riess)",
+      "url": "https://www.cal-catholic.com/from-re-prints-to-new-books/",
+      "publisher": "California Catholic Daily (participant self-description — labeled)",
+      "type": "news"
+    },
+    {
+      "id": "angelico-about",
+      "title": "About us — Angelico Press",
+      "url": "https://angelicopress.com/pages/about-us",
+      "publisher": "Angelico Press (publisher self-description — labeled)",
+      "type": "primary"
+    },
+    {
+      "id": "sedgwick-blog-baltimore",
+      "title": "A new and independent branch of the Maryamiyya (16 January 2023)",
+      "url": "https://traditionalistblog.blogspot.com/2023/01/baltimoremaryamiyya.html",
+      "publisher": "Mark Sedgwick",
+      "type": "academic"
+    },
+    {
+      "id": "cutsinger-net-bio",
+      "title": "James S. Cutsinger — Biography",
+      "url": "https://www.cutsinger.net/biography/",
+      "publisher": "cutsinger.net (primary — his own site)",
+      "type": "primary"
+    },
+    {
+      "id": "wikipedia-wolfgang-smith",
+      "title": "Wolfgang Smith",
+      "url": "https://en.wikipedia.org/wiki/Wolfgang_Smith",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "sacredweb-smith-memoriam",
+      "title": "In Memoriam: Wolfgang Smith (Sacred Web vol. 51)",
+      "url": "https://www.sacredweb.com/volume-51/in-memoriam-wolfgang-smith/",
+      "publisher": "Sacred Web (perennialist journal — sympathetic, labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "nasr-quantum-review",
+      "title": "S. H. Nasr, review essay of 'The Quantum Enigma' (Sophia, 1997)",
+      "url": "https://livingislam.org/ir/ez/dc/poqp_e.html",
+      "publisher": "Seyyed Hossein Nasr / journal Sophia, via livingislam.org",
+      "type": "analysis"
+    },
+    {
+      "id": "wmreview-davis",
+      "title": "The Conservative Case for Antichrist (3 June 2025)",
+      "url": "https://www.wmreview.org/p/davis-review-morello",
+      "publisher": "Michael Warren Davis / WM Review (critical review — labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "onepeterfive-morello",
+      "title": "To Achieve Clarity, to Avoid Scandal: Some Statements on Christian Re-Enchantment (11 June 2025)",
+      "url": "https://onepeterfive.com/to-achieve-clarity-to-avoid-scandal-some-statements-on-christian-re-enchantment/",
+      "publisher": "Sebastian Morello / OnePeterFive (participant reply — labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "bigmodernism-jackson",
+      "title": "Defenders of Occultic Writing in Traditional Catholic Media (13 June 2025)",
+      "url": "https://bigmodernism.substack.com/p/defenders-of-occultic-writing-in",
+      "publisher": "Chris Jackson / Big Modernism (critical — labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "rorate-lamont",
+      "title": "Neoplatonism and the Antichrist: Against 'Christian Hermeticism' (December 2025)",
+      "url": "https://rorate-caeli.blogspot.com/2025/12/neoplatonism-and-antichrist-against.html",
+      "publisher": "John Lamont / Rorate Caeli (critical — labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "wikipedia-azevedo",
+      "title": "Mateus Soares de Azevedo",
+      "url": "https://en.wikipedia.org/wiki/Mateus_Soares_de_Azevedo",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "worldcat-queiroz",
+      "title": "Vasconcellos Queiroz, Alberto, 1963– (name authority record, LCCN n2007060815)",
+      "url": "https://lccn.loc.gov/n2007060815",
+      "publisher": "Library of Congress Name Authority File",
+      "type": "reference"
     }
   ]
 }
