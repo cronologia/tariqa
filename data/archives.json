@@ -1,0 +1,294 @@
+{
+  "generatedBy": "scripts/archive-refs.js",
+  "updatedAt": "2026-07-24",
+  "snapshots": {
+    "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf": {
+      "refId": "religioperennis-rama",
+      "archiveUrl": "https://web.archive.org/web/20260214024350/http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf",
+      "timestamp": "20260214024350",
+      "checkedAt": "2026-07-24"
+    },
+    "https://academic.oup.com/book/26926": {
+      "refId": "sedgwick-book",
+      "archiveUrl": "https://web.archive.org/web/20240712232648/https://academic.oup.com/book/26926",
+      "timestamp": "20240712232648",
+      "checkedAt": "2026-07-24"
+    },
+    "https://accuratenews.net/": {
+      "refId": "accuratenews",
+      "archiveUrl": "https://web.archive.org/web/20260517084555/http://accuratenews.net/",
+      "timestamp": "20260517084555",
+      "checkedAt": "2026-07-24"
+    },
+    "https://angelicopress.com/pages/about-us": {
+      "refId": "angelico-about",
+      "archiveUrl": "https://web.archive.org/web/20260423161155/https://angelicopress.com/pages/about-us",
+      "timestamp": "20260423161155",
+      "checkedAt": "2026-07-24"
+    },
+    "https://angelicopress.com/pages/jean-borella": {
+      "refId": "angelico-borella",
+      "archiveUrl": "https://web.archive.org/web/20251209011322/https://angelicopress.com/pages/jean-borella",
+      "timestamp": "20251209011322",
+      "checkedAt": "2026-07-24"
+    },
+    "https://bigmodernism.substack.com/p/defenders-of-occultic-writing-in": {
+      "refId": "bigmodernism-jackson",
+      "archiveUrl": "https://web.archive.org/web/20250807054005/https://bigmodernism.substack.com/p/defenders-of-occultic-writing-in",
+      "timestamp": "20250807054005",
+      "checkedAt": "2026-07-24"
+    },
+    "https://brill.com/view/journals/arie/21/2/article-p159_1.xml": {
+      "refId": "sedgwick-aries-brazil",
+      "archiveUrl": "https://web.archive.org/web/20260223141256/https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
+      "timestamp": "20260223141256",
+      "checkedAt": "2026-07-24"
+    },
+    "https://bunkerdacultura.blogspot.com/2021/05/a-verdade-sobre-olavo-de-carvalho-o-guru.html": {
+      "refId": "bunker-olavo",
+      "archiveUrl": "https://web.archive.org/web/20231217101645/https://bunkerdacultura.blogspot.com/2021/05/a-verdade-sobre-olavo-de-carvalho-o-guru.html",
+      "timestamp": "20231217101645",
+      "checkedAt": "2026-07-24"
+    },
+    "https://charles-upton.com/2017/06/23/the-long-road-to-sacred-activism-a-confession/": {
+      "refId": "upton-confession",
+      "archiveUrl": "https://web.archive.org/web/20230602091133/https://charles-upton.com/2017/06/23/the-long-road-to-sacred-activism-a-confession/",
+      "timestamp": "20230602091133",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Frithjof_Schuon": {
+      "refId": "wikipedia-schuon",
+      "archiveUrl": "https://web.archive.org/web/20260610174317/https://en.wikipedia.org/wiki/Frithjof_Schuon",
+      "timestamp": "20260610174317",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Jean_Borella": {
+      "refId": "wikipedia-borella",
+      "archiveUrl": "https://web.archive.org/web/20260216142226/https://en.wikipedia.org/wiki/Jean_Borella",
+      "timestamp": "20260216142226",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Martin_Lings": {
+      "refId": "wikipedia-lings",
+      "archiveUrl": "https://web.archive.org/web/20260706001625/https://en.wikipedia.org/wiki/Martin_Lings",
+      "timestamp": "20260706001625",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Maryamiyya_Order": {
+      "refId": "wikipedia-maryamiyya",
+      "archiveUrl": "https://web.archive.org/web/20251113041411/https://en.wikipedia.org/wiki/Maryamiyya_Order",
+      "timestamp": "20251113041411",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Mateus_Soares_de_Azevedo": {
+      "refId": "wikipedia-azevedo",
+      "archiveUrl": "https://web.archive.org/web/20260105055811/https://en.wikipedia.org/wiki/Mateus_Soares_de_Azevedo",
+      "timestamp": "20260105055811",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Michel_Valsan": {
+      "refId": "wikipedia-valsan",
+      "archiveUrl": "https://web.archive.org/web/20251003141437/https://en.wikipedia.org/wiki/Michel_Valsan",
+      "timestamp": "20251003141437",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Olavo_de_Carvalho": {
+      "refId": "wikipedia-olavo",
+      "archiveUrl": "https://web.archive.org/web/20260605211447/https://en.wikipedia.org/wiki/Olavo_de_Carvalho",
+      "timestamp": "20260605211447",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non": {
+      "refId": "wikipedia-guenon",
+      "archiveUrl": "https://web.archive.org/web/20260706190034/https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non",
+      "timestamp": "20260706190034",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr": {
+      "refId": "wikipedia-nasr",
+      "archiveUrl": "https://web.archive.org/web/20260627155534/https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr",
+      "timestamp": "20260627155534",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Titus_Burckhardt": {
+      "refId": "wikipedia-burckhardt",
+      "archiveUrl": "https://web.archive.org/web/20260628230831/https://en.wikipedia.org/wiki/Titus_Burckhardt",
+      "timestamp": "20260628230831",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Traditionalist_School_(perennialism)": {
+      "refId": "wikipedia-traditionalist-school",
+      "archiveUrl": "https://web.archive.org/web/20251226020239/https://en.wikipedia.org/wiki/Traditionalist_School_(perennialism)",
+      "timestamp": "20251226020239",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Victor_Danner": {
+      "refId": "wikipedia-danner",
+      "archiveUrl": "https://web.archive.org/web/20250922182507/https://en.wikipedia.org/wiki/Victor_Danner",
+      "timestamp": "20250922182507",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Whitall_Perry": {
+      "refId": "wikipedia-perry",
+      "archiveUrl": "https://web.archive.org/web/20260529103229/https://en.wikipedia.org/wiki/Whitall_Perry",
+      "timestamp": "20260529103229",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Wolfgang_Smith": {
+      "refId": "wikipedia-wolfgang-smith",
+      "archiveUrl": "https://web.archive.org/web/20260703164822/https://en.wikipedia.org/wiki/Wolfgang_Smith",
+      "timestamp": "20260703164822",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/World_Wisdom": {
+      "refId": "wikipedia-worldwisdom",
+      "archiveUrl": "https://web.archive.org/web/20260702220336/https://en.wikipedia.org/wiki/World_Wisdom",
+      "timestamp": "20260702220336",
+      "checkedAt": "2026-07-24"
+    },
+    "https://fr.wikipedia.org/wiki/Jean_Borella": {
+      "refId": "fr-wikipedia-borella",
+      "archiveUrl": "https://web.archive.org/web/20251209030317/https://fr.wikipedia.org/wiki/Jean_Borella",
+      "timestamp": "20251209030317",
+      "checkedAt": "2026-07-24"
+    },
+    "https://livingislam.org/ir/ez/dc/poqp_e.html": {
+      "refId": "nasr-quantum-review",
+      "archiveUrl": "https://web.archive.org/web/20231205122338/https://www.livingislam.org/ir/ez/dc/poqp_e.html",
+      "timestamp": "20231205122338",
+      "checkedAt": "2026-07-24"
+    },
+    "https://ojardimdasaflicoes.wordpress.com/2017/05/28/parte-iii-1986-pode-nao-ser-maria-mas-esta-cheio-de-graca-a-entrada-do-macumbeiro-para-a-tariqua-mariamyya/": {
+      "refId": "jardim-blog",
+      "archiveUrl": "https://web.archive.org/web/20190403134642/https://ojardimdasaflicoes.wordpress.com/2017/05/28/parte-iii-1986-pode-nao-ser-maria-mas-esta-cheio-de-graca-a-entrada-do-macumbeiro-para-a-tariqua-mariamyya/",
+      "timestamp": "20190403134642",
+      "checkedAt": "2026-07-24"
+    },
+    "https://onepeterfive.com/to-achieve-clarity-to-avoid-scandal-some-statements-on-christian-re-enchantment/": {
+      "refId": "onepeterfive-morello",
+      "archiveUrl": "https://web.archive.org/web/20260307042041/https://onepeterfive.com/to-achieve-clarity-to-avoid-scandal-some-statements-on-christian-re-enchantment/",
+      "timestamp": "20260307042041",
+      "checkedAt": "2026-07-24"
+    },
+    "https://philitt.fr/2017/11/23/jean-borella-a-la-recherche-de-lesoterisme-catholique/": {
+      "refId": "philitt-borella",
+      "archiveUrl": "https://web.archive.org/web/20260117233842/https://philitt.fr/2017/11/23/jean-borella-a-la-recherche-de-lesoterisme-catholique/",
+      "timestamp": "20260117233842",
+      "checkedAt": "2026-07-24"
+    },
+    "https://rorate-caeli.blogspot.com/2025/12/neoplatonism-and-antichrist-against.html": {
+      "refId": "rorate-lamont",
+      "archiveUrl": "https://web.archive.org/web/20260420220904/https://rorate-caeli.blogspot.com/2025/12/neoplatonism-and-antichrist-against.html",
+      "timestamp": "20260420220904",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/": {
+      "refId": "sedgwick-blog",
+      "archiveUrl": "https://web.archive.org/web/20260515174817/https://traditionalistblog.blogspot.com/",
+      "timestamp": "20260515174817",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2016/11/counterpunch-attacks-maryamiyya.html": {
+      "refId": "sedgwick-blog-counterpunch",
+      "archiveUrl": "https://web.archive.org/web/20260712231002/https://traditionalistblog.blogspot.com/2016/11/counterpunch-attacks-maryamiyya.html",
+      "timestamp": "20260712231002",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2017/01/huston-smith-1919-2016.html": {
+      "refId": "sedgwick-blog-smith",
+      "archiveUrl": "https://web.archive.org/web/20260719233752/https://traditionalistblog.blogspot.com/2017/01/huston-smith-1919-2016.html",
+      "timestamp": "20260719233752",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2019/03/olavo-de-carvalho-honored-by-steve.html": {
+      "refId": "sedgwick-blog-bannon",
+      "archiveUrl": "https://web.archive.org/web/20260719233657/https://traditionalistblog.blogspot.com/2019/03/olavo-de-carvalho-honored-by-steve.html",
+      "timestamp": "20260719233657",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2020/02/james-cutsinger-1953-2020.html": {
+      "refId": "sedgwick-obit-cutsinger",
+      "archiveUrl": "https://web.archive.org/web/20260719233826/https://traditionalistblog.blogspot.com/2020/02/james-cutsinger-1953-2020.html",
+      "timestamp": "20260719233826",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2020/10/traditionalism-in-brazil.html": {
+      "refId": "sedgwick-blog-brazil",
+      "archiveUrl": "https://web.archive.org/web/20260309183157/https://traditionalistblog.blogspot.com/2020/10/traditionalism-in-brazil.html",
+      "timestamp": "20260309183157",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html": {
+      "refId": "sedgwick-blog-olavo-death",
+      "archiveUrl": "https://web.archive.org/web/20251207023853/https://traditionalistblog.blogspot.com/2022/01/Olavodeath.html",
+      "timestamp": "20251207023853",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html": {
+      "refId": "sedgwick-blog-catholic-guenonian",
+      "archiveUrl": "https://web.archive.org/web/20260719234233/https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html",
+      "timestamp": "20260719234233",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2023/01/baltimoremaryamiyya.html": {
+      "refId": "sedgwick-blog-baltimore",
+      "archiveUrl": "https://web.archive.org/web/20251022082411/https://traditionalistblog.blogspot.com/2023/01/baltimoremaryamiyya.html",
+      "timestamp": "20251022082411",
+      "checkedAt": "2026-07-24"
+    },
+    "https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html": {
+      "refId": "sedgwick-blog-brazil-today",
+      "archiveUrl": "https://web.archive.org/web/20260720013504/https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
+      "timestamp": "20260720013504",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.academia.edu/3393758/Rama_Coomaraswamy_between_Perennialism_and_traditional_Catholicism": {
+      "refId": "academia-rama",
+      "archiveUrl": "https://web.archive.org/web/20230116230155/https://www.academia.edu/3393758/Rama_Coomaraswamy_between_Perennialism_and_traditional_Catholicism",
+      "timestamp": "20230116230155",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.catholicculture.org/commentary/occult-subversion-traditional-catholicism/": {
+      "refId": "catholicculture-mirus",
+      "archiveUrl": "https://web.archive.org/web/20260519194023/https://www.catholicculture.org/commentary/occult-subversion-traditional-catholicism/",
+      "timestamp": "20260519194023",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.cutsinger.net/biography/": {
+      "refId": "cutsinger-net-bio",
+      "archiveUrl": "https://web.archive.org/web/20260509191429/https://www.cutsinger.net/biography/",
+      "timestamp": "20260509191429",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers": {
+      "refId": "teitelbaum-book",
+      "archiveUrl": "https://web.archive.org/web/20230324081759/https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers",
+      "timestamp": "20230324081759",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.religioperennis.org/documents/Editorial/Issue5/editorialIII1.pdf": {
+      "refId": "religioperennis-fabbri",
+      "archiveUrl": "https://web.archive.org/web/20260214011545/http://www.religioperennis.org/documents/Editorial/Issue5/editorialIII1.pdf",
+      "timestamp": "20260214011545",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.sacredweb.com/volume-51/in-memoriam-wolfgang-smith/": {
+      "refId": "sacredweb-smith-memoriam",
+      "archiveUrl": "https://web.archive.org/web/20260513041215/https://www.sacredweb.com/volume-51/in-memoriam-wolfgang-smith/",
+      "timestamp": "20260513041215",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.tandfonline.com/doi/full/10.1080/13569317.2024.2429971": {
+      "refId": "tandfonline-bloomington",
+      "archiveUrl": "https://web.archive.org/web/20250608052455/https://www.tandfonline.com/doi/full/10.1080/13569317.2024.2429971",
+      "timestamp": "20250608052455",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.wmreview.org/p/davis-review-morello": {
+      "refId": "wmreview-davis",
+      "archiveUrl": "https://web.archive.org/web/20260623224948/https://www.wmreview.org/p/davis-review-morello",
+      "timestamp": "20260623224948",
+      "checkedAt": "2026-07-24"
+    }
+  }
+}
