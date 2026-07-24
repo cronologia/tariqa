@@ -1,8 +1,9 @@
 # Project context
 
 Domain background for anyone (human or AI) working on this repository. Pair
-with [`AGENTS.md`](AGENTS.md); the family's method lives in `cronologia/core`
-(load the `sourcing-rules` skill first).
+with [`AGENTS.md`](AGENTS.md) and [`adr/`](adr/); the family's method lives in
+`cronologia/core` and is vendored at `.claude/skills/` (load `sourcing-rules`
+first).
 
 ## The subject
 
@@ -17,6 +18,23 @@ after Schuon's retirement (1992) and death (1998) the order continued in
 autonomous branches, commonly associated with Seyyed Hossein Nasr (Washington)
 and Martin Lings (London).
 
+## Scope: the order, not the ideas
+
+This repo documents the **order** — initiations and authorizations, zawiyas and
+branches, silsila and lineage, the 1991 Bloomington affair, order-internal
+ruptures and their partisan accounts. The **ideas** — works, journals,
+reception, the Evola line and its political readings — belong to the sibling
+repo `cronologia/perennialism`. An event belongs to exactly one of the two; the
+other cross-links it. Neither repo duplicates the other (`adr/0001`).
+
+## Audience
+
+Readers trying to get a contested, semi-private subject straight: researchers,
+journalists and students who need dated, cited, attributed claims — including
+readers sympathetic to the order and readers hostile to it. The site takes no
+side; it says who claims what, and when. Every characterization a reader might
+dispute should be traceable to a numbered reference in one click.
+
 ## Why this project exists: the connections
 
 - **To Catholic traditionalism (→ `cronologia/fsspx`):** Rama Coomaraswamy —
@@ -28,6 +46,9 @@ and Martin Lings (London).
   Brazil (the 1986/87 Brazilian branch — "the first tariqa brought to Brazil
   by Brazilians"), broke with Schuon at the end of the 1980s, and became the
   philosopher of the Brazilian right whose FSP criticism fsp already vaults.
+- **To the ideas (→ `cronologia/perennialism`):** the school's intellectual
+  history, its journals and its reception — this repo links there rather than
+  retelling it.
 - **To the glossary:** `tariqa`/Maryamiyya is a glossary entry this project
   deepens.
 
@@ -47,6 +68,9 @@ and Martin Lings (London).
 - **Living people; a semi-private order.** Published scholarship (Sedgwick's
   *Against the Modern World*, his Traditionalists blog, the Aries article on
   Brazil) and participants' public writings only. No private members, ever.
+- **Membership needs self-disclosure or scholarship**, and **adjacency is not
+  initiation** — reading Guénon or publishing in a perennialist journal makes
+  someone adjacent, not a member.
 - **The 1991 Bloomington affair** (indictment 15 Oct 1991 → all charges
   dismissed 20 Nov 1991, "not one shred of evidence" per the prosecutor as
   quoted by Wikipedia, never tried, never revived) is a single paired story:
@@ -58,6 +82,30 @@ and Martin Lings (London).
   1980s): attribute every version, including the subject's own.
 - **olavodecarvalho.org currently serves corrupted content** — cite Olavo's
   texts via Wayback snapshots only.
+
+## State of the dataset (as of this writing)
+
+`data/chronology.json` carries **6 facts, 30 events (1912–2025), 19 figures,
+10 organizations, an 8-item disambiguation section and 56 references**, with
+**13 items still carrying an unverified flag** — list them with
+`python3 ../core/tools/unverified-report.py tariqa --markdown`. Coverage is
+strongest on the Schuon-era order and the Brazilian branch; thinnest on the
+post-1998 autonomous branches.
+
+What the site renders beyond the chronology table:
+
+- **Connections graph** (`lineage`): 2 typed-edge genealogy trees with a legend
+  distinguishing direct from indirect links.
+- **Branches timeline** (`branchTimeline`): a "subway diagram" of 6 divisions
+  forking off the trunk, with a cited caption.
+- **Glossary cross-links**: `[[tariqa]]`, `[[zawiya]]`, `[[dhikr]]`,
+  `[[muqaddam]]`, `[[silsila]]`, `[[sedevacantism]]` render as links into
+  `cronologia/glossary` and are validated offline against the pinned
+  `data/glossary-terms.json`.
+- **Preservation**: 48 of 56 references have an Internet Archive fallback link
+  from `data/archives.json`; the weekly `wayback.yml` workflow tops that up and
+  `link-health.yml` reports rot into a single issue without ever touching the
+  data.
 
 ## Key sources
 
