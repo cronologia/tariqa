@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-24",
+  "updatedAt": "2026-07-25",
   "snapshots": {
     "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf": {
       "refId": "religioperennis-rama",
@@ -56,6 +56,12 @@
       "timestamp": "20230602091133",
       "checkedAt": "2026-07-24"
     },
+    "https://en-academic.com/dic.nsf/enwiki/548402": {
+      "refId": "en-academic-rama",
+      "archiveUrl": "https://web.archive.org/web/20260306100627/https://en-academic.com/dic.nsf/enwiki/548402",
+      "timestamp": "20260306100627",
+      "checkedAt": "2026-07-25"
+    },
     "https://en.wikipedia.org/wiki/Frithjof_Schuon": {
       "refId": "wikipedia-schuon",
       "archiveUrl": "https://web.archive.org/web/20260610174317/https://en.wikipedia.org/wiki/Frithjof_Schuon",
@@ -109,6 +115,12 @@
       "archiveUrl": "https://web.archive.org/web/20260627155534/https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr",
       "timestamp": "20260627155534",
       "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Thomas_Yellowtail": {
+      "refId": "wikipedia-yellowtail",
+      "archiveUrl": "https://web.archive.org/web/20260420211229/https://en.wikipedia.org/wiki/Thomas_Yellowtail",
+      "timestamp": "20260420211229",
+      "checkedAt": "2026-07-25"
     },
     "https://en.wikipedia.org/wiki/Titus_Burckhardt": {
       "refId": "wikipedia-burckhardt",
@@ -188,6 +200,12 @@
       "timestamp": "20260515174817",
       "checkedAt": "2026-07-24"
     },
+    "https://traditionalistblog.blogspot.com/2010/07/validity-of-maryamiyya.html": {
+      "refId": "sedgwick-blog-validity",
+      "archiveUrl": "https://web.archive.org/web/20260418133041/https://traditionalistblog.blogspot.com/2010/07/validity-of-maryamiyya.html",
+      "timestamp": "20260418133041",
+      "checkedAt": "2026-07-25"
+    },
     "https://traditionalistblog.blogspot.com/2016/11/counterpunch-attacks-maryamiyya.html": {
       "refId": "sedgwick-blog-counterpunch",
       "archiveUrl": "https://web.archive.org/web/20260712231002/https://traditionalistblog.blogspot.com/2016/11/counterpunch-attacks-maryamiyya.html",
@@ -247,6 +265,12 @@
       "archiveUrl": "https://web.archive.org/web/20230116230155/https://www.academia.edu/3393758/Rama_Coomaraswamy_between_Perennialism_and_traditional_Catholicism",
       "timestamp": "20230116230155",
       "checkedAt": "2026-07-24"
+    },
+    "https://www.cal-catholic.com/from-re-prints-to-new-books/": {
+      "refId": "calcatholic-riess",
+      "archiveUrl": "https://web.archive.org/web/20240619052204/https://www.cal-catholic.com/from-re-prints-to-new-books/",
+      "timestamp": "20240619052204",
+      "checkedAt": "2026-07-25"
     },
     "https://www.catholicculture.org/commentary/occult-subversion-traditional-catholicism/": {
       "refId": "catholicculture-mirus",

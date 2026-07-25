@@ -22,11 +22,13 @@
     },
     {
       "label": "Lineage",
-      "value": "A branch of the Alawiyya of Shaykh Ahmad al-Alawi (Mostaganem, Algeria), where Schuon was initiated in the early 1930s; Schuon assumed the function of independent shaykh in Basel in late 1936 — an investiture his followers describe as divinely confirmed and Sedgwick treats as self-authorization.",
+      "value": "A branch of the Alawiyya of Shaykh Ahmad al-Alawi (Mostaganem, Algeria), where Schuon was initiated in the early 1930s; Schuon assumed the function of independent shaykh in Basel in late 1936 — an investiture his followers describe as divinely confirmed and Sedgwick treats as self-authorization. Sedgwick (14 July 2010) places the order twice over. Organizationally it is, in his words, “an independent branch of the Alawiyya, which is itself an independent branch of the Darqawiyya, which is itself an independent branch of the Shadhiliyya” — “independent” meaning that it operates independently of the tariqa it derives from and that its practice, prayers and teachings differ in certain respects, which he notes is true of most tariqas in existence today. Personally, Schuon is “a link in a chain ([[silsila]])” passing through Ahmad al-Alawi, Muhammad al-Arabi al-Darqawi and Abu’l-Hasan al-Shadhili, and then through both Ali ibn Abi Talib and Abu Bakr to the Prophet Muhammad.",
       "sources": [
         "wikipedia-maryamiyya",
         "wikipedia-schuon",
-        "sedgwick-book"
+        "sedgwick-book",
+        "sedgwick-blog-validity",
+        "sedgwick-atmw-ch-maryamiyya"
       ]
     },
     {
@@ -135,12 +137,13 @@
     {
       "year": 1935,
       "date": "1935",
-      "dateVerified": true,
+      "dateVerified": false,
       "place": "Mostaganem, Algeria",
       "title": "Schuon made muqaddam",
-      "text": "Shaykh Adda ben Tounes, al-Alawi's successor, authorizes Schuon to initiate aspirants into the Alawi order in Europe.",
+      "text": "Per Wikipedia's account, Shaykh Adda ben Tounes, al-Alawi's successor, authorizes Schuon to initiate aspirants into the Alawi order in Europe; the 1935 dating rests on that single tertiary source and is not corroborated here. Whether and how Schuon was authorized as a [[muqaddam]] is itself disputed, and Sedgwick (14 July 2010) declines to make it decisive: setting out where the Maryamiyya sits in Sufi classification, he writes that “the question of whether or not (or how) Schuon was authorized as a muqaddam by al-Alawi has no bearing or impact on” Schuon's place in the [[silsila]]. The disagreement is recorded, not resolved.",
       "sources": [
-        "wikipedia-schuon"
+        "wikipedia-schuon",
+        "sedgwick-blog-validity"
       ]
     },
     {
@@ -216,9 +219,10 @@
       "dateVerified": true,
       "place": "Lausanne / Morocco",
       "title": "The Marian visions",
-      "text": "Schuon reports visions of the Virgin Mary ('Marian graces') and thereafter regards Mary as the order's spiritual protectress — the origin of the order's distinctive Marian devotion.",
+      "text": "Schuon reports visions of the Virgin Mary ('Marian graces') and thereafter regards Mary as the order's spiritual protectress — the origin of the order's distinctive Marian devotion. Sedgwick (14 July 2010) ties the order's foundation as a distinct tariqa to “the authorization said to have been given to Schuon in a vision by the Virgin Mary”, paralleling it with the authorization “said to have been given to al-Alawi in a vision by Ali ibn Abi Talib” and adding that “while such forms of authorization are not universal, they are very common.” His conclusion is deliberately conditional: “the Maryamiyya is probably ‘valid’ to the extent that Schuon’s vision of the Virgin Mary in 1965 was ‘valid.’” Answering a commenter the same day, he stressed that he had expressed no view on whether the vision was valid.",
       "sources": [
-        "wikipedia-maryamiyya"
+        "wikipedia-maryamiyya",
+        "sedgwick-blog-validity"
       ]
     },
     {
@@ -737,11 +741,12 @@
       },
       {
         "title": "Maryamiyya ≠ mainstream Sufism",
-        "text": "Criticism of Schuon's universalist adaptations began inside the Guénonian world itself — the 1950 Vâlsan split over the relaxation of Islamic practice — and continued over the Marian devotion, the Plains Indian rites and the Bloomington gatherings. Defenders present these as legitimate esoteric adaptation; critics as syncretism. Both framings are attributed.",
+        "text": "Criticism of Schuon's universalist adaptations began inside the Guénonian world itself — the 1950 Vâlsan split over the relaxation of Islamic practice — and continued over the Marian devotion, the Plains Indian rites and the Bloomington gatherings. Defenders present these as legitimate esoteric adaptation; critics as syncretism. Both framings are attributed. On the narrower question of “validity”, Sedgwick (14 July 2010) argues the Maryamiyya can be placed like most tariqas — organizationally within the Alawiyya–Darqawiyya–Shadhiliyya descent, personally through Schuon's silsila — and concludes that “the Maryamiyya is probably ‘valid’ to the extent that Schuon’s vision of the Virgin Mary in 1965 was ‘valid.’” The formula is conditional by design and endorses neither side; it is quoted here as written.",
         "sources": [
           "sedgwick-book",
           "urban-dance-of-masks",
-          "wikipedia-maryamiyya"
+          "wikipedia-maryamiyya",
+          "sedgwick-blog-validity"
         ]
       },
       {
@@ -798,7 +803,7 @@
       {
         "title": "The Maryamiyya silsila and its circle",
         "summary": "Schuon's line from the Alawiyya, its initiated members, and the Christian and Brazilian followers the record keeps distinct from members.",
-        "sources": ["wikipedia-maryamiyya", "sedgwick-book"],
+        "sources": ["wikipedia-maryamiyya", "sedgwick-book", "sedgwick-blog-validity", "sedgwick-atmw-ch-maryamiyya"],
         "root": {
           "name": "Shaykh Ahmad al-Alawi",
           "detail": "Alawiyya, Mostaganem (d. 1934)",
@@ -907,6 +912,39 @@
               "detail": "led the Paris Alawiyya; separated it from Schuon's branch in 1950 with Guénon's approval",
               "status": "the sharia-observant 'Guénonian-orthodox' line — NOT Maryamiyya",
               "sources": ["wikipedia-valsan", "sedgwick-book"]
+            }
+          ]
+        }
+      },
+      {
+        "title": "The silsila upstream of Schuon, as Sedgwick describes it (2010)",
+        "summary": "Mark Sedgwick, 14 July 2010: “in personal terms” Schuon is “a link in a chain (silsila)” passing through Ahmad al-Alawi, Muhammad al-Arabi al-Darqawi and Abu’l-Hasan al-Shadhili, “and then through both Ali ibn Abi Talib and Abu Bakr to the Prophet Muhammad, and thence to God” — the last step is stated in the node detail rather than drawn, because the chain runs through the two of them and not through one. Sedgwick adds that “the question of whether or not (or how) Schuon was authorized as a muqaddam by al-Alawi has no bearing or impact on this.” Organizationally he places the same descent as Maryamiyya < Alawiyya < Darqawiyya < Shadhiliyya, each an independent branch of the one before.",
+        "separate": true,
+        "sources": ["sedgwick-blog-validity"],
+        "root": {
+          "name": "Abu’l-Hasan al-Shadhili",
+          "detail": "the Shadhiliyya; above him the chain runs through both Ali ibn Abi Talib and Abu Bakr to the Prophet Muhammad, “and thence to God”",
+          "sources": ["sedgwick-blog-validity"],
+          "children": [
+            {
+              "name": "Muhammad al-Arabi al-Darqawi",
+              "detail": "the Darqawiyya — an independent branch of the Shadhiliyya",
+              "sources": ["sedgwick-blog-validity"],
+              "children": [
+                {
+                  "name": "Shaykh Ahmad al-Alawi",
+                  "detail": "the Alawiyya — an independent branch of the Darqawiyya; its foundation likewise tied to an authorization “said to have been given to al-Alawi in a vision by Ali ibn Abi Talib”",
+                  "sources": ["sedgwick-blog-validity"],
+                  "children": [
+                    {
+                      "name": "Frithjof Schuon",
+                      "detail": "the Maryamiyya — an independent branch of the Alawiyya; its foundation “seems to result from the authorization said to have been given to Schuon in a vision by the Virgin Mary”",
+                      "status": "whether or how he was authorized as muqaddam by al-Alawi is disputed — per Sedgwick it has “no bearing or impact” on this chain",
+                      "sources": ["sedgwick-blog-validity"]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -1200,7 +1238,7 @@
       "id": "sedgwick-atmw-archive",
       "title": "Against the Modern World — full text (Internet Archive lending copy; the 'Christian Schuonians' passage at p. 161)",
       "url": "https://archive.org/details/againstmodernwor0000sedg",
-      "publisher": "Mark Sedgwick / OUP via archive.org",
+      "publisher": "Mark Sedgwick / OUP via archive.org — the accessible copy of the book whose canonical record is Oxford Academic book 26926; its Maryamiyya material is chapter 196038895, “The Maryamiyya” (see sedgwick-atmw-ch-maryamiyya). Which chapter carries p. 161 is not confirmed here.",
       "type": "academic"
     },
     {
@@ -1384,6 +1422,20 @@
       "url": "https://lccn.loc.gov/n2007060815",
       "publisher": "Library of Congress Name Authority File",
       "type": "reference"
+    },
+    {
+      "id": "sedgwick-blog-validity",
+      "title": "The “validity” of the Maryamiyya (14 July 2010)",
+      "url": "https://traditionalistblog.blogspot.com/2010/07/validity-of-maryamiyya.html",
+      "publisher": "Mark Sedgwick (Aarhus University), Traditionalists blog — the field's leading scholar writing on his own moderated blog; labeled as such",
+      "type": "academic"
+    },
+    {
+      "id": "sedgwick-atmw-ch-maryamiyya",
+      "title": "“The Maryamiyya” — chapter of Against the Modern World (Oxford Academic chapter 196038895)",
+      "url": "https://academic.oup.com/book/26926/chapter-abstract/196038895",
+      "publisher": "Mark Sedgwick / Oxford University Press — canonical chapter record for the book cited here (print edn New York 2004; online edn Oxford Academic 20 Jan 2005 per the citation record, not confirmed from the publisher page here). academic.oup.com returns 403 to this environment: cited at abstract level only — the full text was not consulted through it.",
+      "type": "academic"
     }
   ]
 }
