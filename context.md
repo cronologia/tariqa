@@ -3,7 +3,10 @@
 Domain background for anyone (human or AI) working on this repository. Pair
 with [`AGENTS.md`](AGENTS.md) and [`adr/`](adr/); the family's method lives in
 `cronologia/core` and is vendored at `.claude/skills/` (load `sourcing-rules`
-first).
+first). Before searching any source — the vaulted transcripts, the COF corpus,
+or the dataset itself — read [`KEYWORDS.md`](KEYWORDS.md): it lists what this
+subject is actually called and, more usefully, which obvious searches return
+nothing. It is a finding aid, not a dataset; it asserts nothing.
 
 ## The subject
 
@@ -108,6 +111,9 @@ What the site renders beyond the chronology table:
   data.
 
 ## Key sources
+
+The strings that actually retrieve these sources — and the ones that look
+obvious but return nothing — are in [`KEYWORDS.md`](KEYWORDS.md).
 
 Sedgwick (book, blog, Aries 21:2) · Wikipedia EN (Schuon, Guénon, Maryamiyya
 Order, Traditionalist School, Olavo, Lings, Nasr) · Hugh Urban's "A Dance of

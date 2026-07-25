@@ -38,6 +38,13 @@ build.js                      Compiler: data/chronology.json -> docs/{en,pt,es}/
                               redirect stub + sitemap.xml/robots.txt (see adr/0002)
 test/                         node:test suites (helpers + data invariants + glossary links +
                               viz renderers + docs drift check)
+KEYWORDS.md                   Search vocabulary + search traps: what the subject is called,
+                              which obvious searches return nothing, the ASR manglings in the
+                              vaulted transcripts, and which sibling repo owns an adjacent
+                              subject. PART GENERATED — the block between the
+                              `build-keywords.py` markers is rebuilt from data/chronology.json;
+                              the hand-curated `## Search traps` section outside it is not.
+                              A finding aid, not a dataset: it makes no claims about the world
 adr/                          Decisions that govern this repo
 .claude/skills/               GENERATED — vendored copy of cronologia/core skills/
                               (manifest: .claude/skills/_synced.json)
@@ -115,7 +122,7 @@ All ten are vendored under `.claude/skills/`. In practice:
 | `adopt-template` | Porting a renderer, validator rule, test or style from `cronologia/core/template/` — additions stay optional and data-driven. |
 | `release-work` | Branching, fast-forwarding, committing and pushing a wave; reporting what shipped and what was deferred. |
 | `dossier-research` | Building a person dossier (this is a research-heavy repo — Schuon, Nasr, Lings, Rama Coomaraswamy, Olavo de Carvalho). |
-| `mine-video` | Interviews, podcasts and testimony: transcript → ticket → verified data. Testimony is a perspective, not a fact source. |
+| `mine-video` | Interviews, podcasts and testimony: transcript → ticket → verified data. Testimony is a perspective, not a fact source. Check [`KEYWORDS.md`](KEYWORDS.md) §3 first — the vault's ASR manglings for Schuon, Coomaraswamy, Guénon, Lings, Nasr and Pallis are already recorded there, and new ones belong back in it. |
 | `bootstrap-project` | Standing up a new sibling repo (not needed for routine work here). |
 
 The vendored copies are **generated**. Fix a skill in `cronologia/core/skills/`
@@ -131,6 +138,27 @@ python3 ../core/tools/sync-skills.py tariqa --check    # writes nothing; exit 1 
 These never run in CI and never write to `data/`. Use them instead of reading
 whole files — `data/chronology.json` is ~66 KB and a full read costs more than
 the answer is worth.
+
+**Before you search anything — a corpus, a transcript, the dataset — read
+[`KEYWORDS.md`](KEYWORDS.md), especially its `## Search traps` section.** The
+obvious term is often the wrong one here: `Sufi master` returns 0 rows where
+`muqaddam` returns 10; `muqaddam`, `silsila`, `dhikr`, `zawiya`, `bay'ah` and
+`khalifa` return **zero files** across the 7.16M-word COF corpus; `tarica`
+(the auto-caption spelling) is in more corpus files than `tariqa` is; and
+`Rama` names three different referents across this family. A zero-result search
+is usually a vocabulary miss, not an absence — and when you discover a new one,
+record it in `KEYWORDS.md` under `## Search traps` (outside the generated
+markers) so the next agent does not repeat the search.
+
+Regenerate the mechanical half after a data edit that adds figures,
+organizations, places or glossary markers:
+
+```bash
+python3 ../core/tools/build-keywords.py tariqa --out KEYWORDS.md
+```
+
+It splices only between the `build-keywords.py` markers; the hand-curated
+`## Search traps` section outside them is preserved.
 
 ```bash
 python3 ../core/tools/dataset-query.py tariqa stats            # collection counts, year span, gaps
