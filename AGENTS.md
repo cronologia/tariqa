@@ -22,14 +22,20 @@ data/chronology.json          SOURCE OF TRUTH — facts, events, figures, organi
                               disambiguation, lineage, branchTimeline, references (hand-edited)
 data/glossary-terms.json      GENERATED — pinned copy of cronologia/glossary term ids,
                               refreshed by scripts/sync-glossary-terms.js (never hand-edited)
+data/i18n/{pt,es}.json        GENERATED — committed machine-translation caches keyed by the
+                              English source string, managed by scripts/translate.js
+                              (never hand-edited; English is authoritative)
 data/archives.json            GENERATED — Wayback snapshot cache written by
                               scripts/archive-refs.js in CI (never hand-edited)
 src/styles.css                Stylesheet (copied into the build)
 scripts/validate-data.js      Schema check (runs in CI before the build)
 scripts/sync-glossary-terms.js  Refresh the vendored glossary term ids (out-of-band)
+scripts/translate.js          Translation-cache manager: `--stats` reports pt/es coverage,
+                              normalizes data/i18n/*.json (offline-safe, no backend needed)
 scripts/archive-refs.js       Wayback availability + Save Page Now (CI only, writes archives.json)
 scripts/check-links.js        Link-rot report (CI only; NEVER edits data)
-build.js                      Compiler: data/chronology.json -> docs/
+build.js                      Compiler: data/chronology.json -> docs/{en,pt,es}/ + root
+                              redirect stub + sitemap.xml/robots.txt (see adr/0002)
 test/                         node:test suites (helpers + data invariants + glossary links +
                               viz renderers + docs drift check)
 adr/                          Decisions that govern this repo
@@ -38,7 +44,9 @@ adr/                          Decisions that govern this repo
 .github/workflows/deploy.yml      CI: validate, test, build, drift check, Pages deploy
 .github/workflows/wayback.yml     Weekly preservation: archive-refs.js -> archives.json + docs/
 .github/workflows/link-health.yml Weekly link-rot issue (report only)
-docs/                         COMPILED OUTPUT, served by GitHub Pages (committed)
+docs/                         COMPILED OUTPUT, served by GitHub Pages (committed).
+                              docs/index.html is a redirect stub; the real pages live at
+                              docs/{en,pt,es}/index.html — one file per (page x locale)
 ```
 
 ## Working agreements
