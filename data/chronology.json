@@ -310,7 +310,7 @@
       "dateVerified": true,
       "place": "Bloomington (Monroe County), Indiana, USA",
       "title": "The Bloomington affair — indictment and dismissal",
-      "text": "A grand jury indicts Schuon, 84, on allegations by a former member concerning ritual gatherings; the judge criticizes the indictment as vague, and on 20 November the county prosecutor dismisses all charges, stating there was insufficient evidence — 'not one shred of evidence' beyond the complainant's allegations, per the wording quoted by Wikipedia — adding that a miscarriage had occurred insofar as Schuon had been labeled. Schuon was never tried and the case was never revived. Accounts of the deputy prosecutor's subsequent departure differ (resigned vs dismissed) and both are attributed.",
+      "text": "A grand jury indicts Schuon, 84, on allegations by a former member concerning ritual gatherings; the judge criticizes the indictment as vague (Bloomington press coverage of 29 October 1991), and on 20 November the county prosecutor dismisses all charges, stating there was insufficient evidence — 'not one shred of evidence' beyond the complainant's allegations, per the wording quoted by Wikipedia — adding that a miscarriage had occurred insofar as Schuon had been labeled. Schuon was never tried and the case was never revived. In announcing the dismissal, prosecutor Robert Miller said the deputy prosecutor who had headed the grand jury investigation, David Hunter, 'has submitted his resignation' and had resigned his position 'last week', and declined to say whether he had requested it; Hunter for his part blamed Miller (contemporaneous Bloomington coverage as reproduced by accuratenews.net, a pro-Schuon archive, labeled as such). Critical accounts instead say Hunter was fired; both versions are attributed.",
       "sources": [
         "wikipedia-schuon",
         "accuratenews",
@@ -443,11 +443,13 @@
     },
     {
       "name": "Rama P. Coomaraswamy",
-      "role": "Son of Ananda; cardiac surgeon, later psychiatrist; professor at the SSPX's Ridgefield seminary until c. 1983, where he influenced the future SSPV founders; sedevacantist priest ordained in 1999 by Bishop José Ramón López-Gastón of the Thục line (per his own published account); contributor to the Foundation for Traditional Studies' journal Sophia. Per Sedgwick (Against the Modern World, p. 161) he was never a formal Maryamiyya member but a personal follower of Schuon who led a Catholic group practicing dhikr-like repetitive prayer with Christian concepts — see the fsspx project's dossier.",
+      "role": "Son of Ananda; cardiac surgeon, later psychiatrist; professor of ecclesiastical history at the SSPX's St. Thomas Aquinas seminary at Ridgefield, Connecticut 'for five years' — that is, until about 1983 — per the 2007 memorial by William Stoddart and Mateus Soares de Azevedo, which says nothing further about his part in the Society's internal disputes. The stronger claim in circulation, that he drew the future SSPV founders to [[sedevacantism]], rests on a mirror of a since-deleted Wikipedia article alone and is recorded here as unverified (to verify) — Fr. Anthony Cekada's own account of the 1983 split does not mention him; the fsspx project carries that dispute. Sedevacantist priest ordained in 1999 by Bishop José Ramón López-Gastón of the Thục line (per his own published account); contributor to the Foundation for Traditional Studies' journal Sophia. Per Sedgwick (Against the Modern World, p. 161) he was never a formal Maryamiyya member but a personal follower of Schuon who led a Catholic group practicing dhikr-like repetitive prayer with Christian concepts — see the fsspx project's dossier.",
       "dates": "1929–2006",
       "country": "USA",
       "sources": [
         "sedgwick-atmw-archive",
+        "religioperennis-rama",
+        "en-academic-rama",
         "rama-validity-wayback",
         "academia-rama",
         "legacy-rama-obit"
@@ -524,6 +526,16 @@
       "country": "England",
       "sources": [
         "wikipedia-traditionalist-school"
+      ]
+    },
+    {
+      "name": "Thomas Yellowtail",
+      "role": "Crow Sun Dance chief and medicine man — the English Wikipedia article describes him as 'a medicine man for over thirty years'. Per the English Wikipedia article on Schuon he adopted Schuon into the Crow tribe in 1984, visited him every year and 'remained Schuon's intimate friend until his death in 1993' — the Plains Indian thread of the 1947 entry. No source located here documents any affiliation with the Maryamiyya or with any Sufi order: what is documented is the adoption and the friendship, not membership.",
+      "dates": "7 March 1903 – 24 November 1993",
+      "country": "Crow Indian Reservation, Montana, USA",
+      "sources": [
+        "wikipedia-yellowtail",
+        "wikipedia-schuon"
       ]
     },
     {
@@ -1127,6 +1139,20 @@
       "url": "https://en.wikipedia.org/wiki/World_Wisdom",
       "publisher": "Wikipedia (EN)",
       "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-yellowtail",
+      "title": "Thomas Yellowtail",
+      "url": "https://en.wikipedia.org/wiki/Thomas_Yellowtail",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "en-academic-rama",
+      "title": "Rama Coomaraswamy — mirror of a since-deleted Wikipedia article",
+      "url": "https://en-academic.com/dic.nsf/enwiki/548402",
+      "publisher": "en-academic.com (unattributed mirror of a deleted Wikipedia article — weak source, cited here only for claims explicitly flagged unverified)",
+      "type": "reference"
     },
     {
       "id": "legacy-rama-obit",
