@@ -294,14 +294,16 @@
       "dateVerified": false,
       "place": "Bloomington / São Paulo, Brazil",
       "title": "The Brazilian branch founded",
-      "text": "Olavo de Carvalho leads a group of Brazilians to Bloomington, is initiated (taking the name Sidi Muhammad Ibrahim, per the critical documentary blog, corroborated in outline by Sedgwick), and is appointed [[muqaddam]] in Brazil under Martin Lings's guidance — described as the first tariqa brought to Brazil by Brazilians. Sources split between 1986 (Sedgwick) and 1987 (Brazilian tertiary sources) for the founding. Sedgwick's later obituary notice (28 Jan 2022) calls him \"briefly a Maryami and the [[khalifa]] of Frithjof Schuon in Brazil\", where this dataset and the Brazilian sources say [[muqaddam]]; the two titles are distinct and the divergence is recorded, not resolved. Carvalho's own dated account, in the Curso Online de Filosofia, adds a fourth voice to this record without settling it. In aula 094 (12 February 2011) he said that as soon as he entered Schuon's tariqa he was immediately appointed its [[muqaddam]] — which he glossed as the organization's representative for Brazil — that he had not asked for the post and found the speed of the appointment odd, and that the order then passed its instructions to a different man, creating a conflict of authority he described as dishonest. In aula 033 (21 November 2009) he said that at the time of the essays collected in Universalidade e Abstração (1983) he was an aspirant who later became a member, that he wrote in the manner of the Études Traditionnelles circle in order to please the shaykh, and that he was accepted at the first attempt while others had been applying yearly for twelve years. His self-description as [[muqaddam]] agrees with this dataset and the Brazilian sources and not with Sedgwick's obituary notice, which says [[khalifa]]; a participant's self-disclosure does not adjudicate a scholarly source, and the divergence stays recorded rather than resolved. None of this is quoted: the corpus text is a community transcription unchecked against the audio.",
+      "text": "Olavo de Carvalho leads a group of Brazilians to Bloomington, is initiated (taking the name Sidi Muhammad Ibrahim, per the critical documentary blog, corroborated in outline by Sedgwick), and is appointed [[muqaddam]] in Brazil under Martin Lings's guidance — described as the first tariqa brought to Brazil by Brazilians. Sources split between 1986 (Sedgwick) and 1987 (Brazilian tertiary sources) for the founding. Sedgwick's later obituary notice (28 Jan 2022) calls him \"briefly a Maryami and the [[khalifa]] of Frithjof Schuon in Brazil\", where this dataset and the Brazilian sources say [[muqaddam]]; the two titles are distinct and the divergence is recorded, not resolved. Carvalho's own dated account, in the Curso Online de Filosofia, adds a fourth voice to this record without settling it. In aula 094 (12 February 2011) he said that as soon as he entered Schuon's tariqa he was immediately appointed its [[muqaddam]] — which he glossed as the organization's representative for Brazil — that he had not asked for the post and found the speed of the appointment odd, and that the order then passed its instructions to a different man, creating a conflict of authority he described as dishonest. In aula 033 (21 November 2009) he said that at the time of the essays collected in Universalidade e Abstração (1983) he was an aspirant who later became a member, that he wrote in the manner of the Études Traditionnelles circle in order to please the shaykh, and that he was accepted at the first attempt while others had been applying yearly for twelve years. His self-description as [[muqaddam]] agrees with this dataset and the Brazilian sources and not with Sedgwick's obituary notice, which says [[khalifa]]; a participant's self-disclosure does not adjudicate a scholarly source, and the divergence stays recorded rather than resolved. Two further dated lectures bear on how he came into the order. In aula 206 (1 June 2013) he said that in '86 he was in the United States for the first time and that he met Whitall Perry there — a first-person placing of himself in the country in the year Sedgwick gives, although in that passage he named neither Bloomington nor the initiation. In aula 279 (17 January 2015) he described the route in: he reached Schuon's tariqa first through the Buddhist author Marco Pallis, and then Rama P. Coomaraswamy — whom he called a traditionalist Catholic theologian and Schuon's second-closest collaborator — put him in contact with it; his stated reason for joining was that the order was multi-confessional, so that belonging to it would not commit him to another religion. His own entry is self-disclosure and is accepted as such; what he says there about Pallis and about Coomaraswamy is a claim about third parties, carried attributed and, in Coomaraswamy's case, against Sedgwick rather than with him. None of this is quoted: the corpus text is a community transcription unchecked against the audio.",
       "sources": [
         "sedgwick-blog-brazil",
         "jardim-blog",
         "wikipedia-olavo",
         "sedgwick-blog-olavo-death",
         "olavo-cof-094",
-        "olavo-cof-033"
+        "olavo-cof-033",
+        "olavo-cof-206",
+        "olavo-cof-279"
       ]
     },
     {
@@ -310,7 +312,7 @@
       "dateVerified": false,
       "place": "São Paulo, Brazil",
       "title": "Olavo breaks with Schuon",
-      "text": "Olavo de Carvalho leaves the order after a rupture with Schuon; the sources disagree on the date — 1987 (Bunker da Cultura), 'the late 1980s' (Sedgwick), or an expelled-1987–91 window (the Jardim series) — and on the reasons, with his own published framing (the multiconfessional rule, in 'Influências discretas') differing from the hostile accounts; every version is attributed. He reinvents himself, in Sedgwick's phrase, as a Catholic-identifying 'post-Traditionalist'. Carvalho's own tellings in the Curso Online de Filosofia are a fourth attributed account, and they diverge from each other, which is itself the finding. In aula 094 (12 February 2011) he framed the ending as his own act — when he broke with these people, he said, they activated the order's customary judicial harassment, inventing a case accusing him of a crime he had not committed which cost him six years and nearly ruined him before he won it; he added that the accusation he suffered came at forty (he was born in 1947), and that all of it was more than twenty years earlier. In aula 218 (31 August 2013), reading out a critic's summary that had him expelled from the Maryamiyya, he said that this checked out perfectly, that he had already explained the circumstances, and that he holds the whole correspondence; in the same lecture he said that one cannot leave a tariqa of one's own accord — either the man puts you out or you never leave. In aula 241 (1 March 2014) he repeated the six-year lawsuit and said the order's usual practice was judicial harassment, which it could not press further in Brazil because it had only eight disciples there. Break-by-his-own-act and expulsion are not the same claim, and he made both; the year remains unfixed and the dateVerified flag stays down. Nothing here is quoted — the corpus text has not been checked against the audio.",
+      "text": "Olavo de Carvalho leaves the order after a rupture with Schuon; the sources disagree on the date — 1987 (Bunker da Cultura), 'the late 1980s' (Sedgwick), or an expelled-1987–91 window (the Jardim series) — and on the reasons, with his own published framing (the multiconfessional rule, in 'Influências discretas') differing from the hostile accounts; every version is attributed. He reinvents himself, in Sedgwick's phrase, as a Catholic-identifying 'post-Traditionalist'. Carvalho's own tellings in the Curso Online de Filosofia are a fourth attributed account, and they diverge from each other, which is itself the finding. In aula 094 (12 February 2011) he framed the ending as his own act — when he broke with these people, he said, they activated the order's customary judicial harassment, inventing a case accusing him of a crime he had not committed which cost him six years and nearly ruined him before he won it; he added that the accusation he suffered came at forty (he was born in 1947), and that all of it was more than twenty years earlier. In aula 218 (31 August 2013), reading out a critic's summary that had him expelled from the Maryamiyya, he said that this checked out perfectly, that he had already explained the circumstances, and that he holds the whole correspondence; in the same lecture he said that one cannot leave a tariqa of one's own accord — either the man puts you out or you never leave. In aula 241 (1 March 2014) he repeated the six-year lawsuit and said the order's usual practice was judicial harassment, which it could not press further in Brazil because it had only eight disciples there. A third dated telling, in aula 242 (15 March 2014), supplies a cause the 2013 one did not: he said he had left expelled from the [[tariqa]] for quarrelling with the shaykh, and in the same passage that the order he had belonged to was Schuon's, which hated Freemasonry and put out anyone who went near it. That passage also appears to give the length of his membership as a year and a half — a figure that does not sit easily with an entry in 1986 and a break at the end of the 1980s — but the sentence is elliptical in a transcription never checked against the audio, and it is recorded here as an open question rather than as a duration. In aula 279 (17 January 2015) he said that Schuon, late in life and under pressure from other tariqas, decreed that only Muslims would be accepted: a dated restatement of the multiconfessional rule that his own published account gives as his reason for leaving, although in the lecture he neither dates the decree nor ties it to his own departure. Break-by-his-own-act and expulsion are not the same claim, and he made both; the year remains unfixed and the dateVerified flag stays down. Nothing here is quoted — the corpus text has not been checked against the audio.",
       "sources": [
         "sedgwick-blog-brazil",
         "olavo-influencias",
@@ -318,7 +320,9 @@
         "bunker-olavo",
         "olavo-cof-094",
         "olavo-cof-218",
-        "olavo-cof-241"
+        "olavo-cof-241",
+        "olavo-cof-242",
+        "olavo-cof-279"
       ]
     },
     {
@@ -464,7 +468,7 @@
     },
     {
       "name": "Rama P. Coomaraswamy",
-      "role": "Son of Ananda; cardiac surgeon, later psychiatrist; professor of ecclesiastical history at the SSPX's St. Thomas Aquinas seminary at Ridgefield, Connecticut 'for five years' — that is, until about 1983 — per the 2007 memorial by William Stoddart and Mateus Soares de Azevedo, which says nothing further about his part in the Society's internal disputes. The stronger claim in circulation, that he drew the future SSPV founders to [[sedevacantism]], rests on a mirror of a since-deleted Wikipedia article alone and is recorded here as unverified (to verify) — Fr. Anthony Cekada's own account of the 1983 split does not mention him; the fsspx project carries that dispute. Sedevacantist priest ordained in 1999 by Bishop José Ramón López-Gastón of the Thục line (per his own published account); contributor to the Foundation for Traditional Studies' journal Sophia. Per Sedgwick (Against the Modern World, p. 161) he was never a formal Maryamiyya member but a personal follower of Schuon who led a Catholic group practicing dhikr-like repetitive prayer with Christian concepts — see the fsspx project's dossier.",
+      "role": "Son of Ananda; cardiac surgeon, later psychiatrist; professor of ecclesiastical history at the SSPX's St. Thomas Aquinas seminary at Ridgefield, Connecticut 'for five years' — that is, until about 1983 — per the 2007 memorial by William Stoddart and Mateus Soares de Azevedo, which says nothing further about his part in the Society's internal disputes. The stronger claim in circulation, that he drew the future SSPV founders to [[sedevacantism]], rests on a mirror of a since-deleted Wikipedia article alone and is recorded here as unverified (to verify) — Fr. Anthony Cekada's own account of the 1983 split does not mention him; the fsspx project carries that dispute. Sedevacantist priest ordained in 1999 by Bishop José Ramón López-Gastón of the Thục line (per his own published account); contributor to the Foundation for Traditional Studies' journal Sophia. Per Sedgwick (Against the Modern World, p. 161) he was never a formal Maryamiyya member but a personal follower of Schuon who led a Catholic group practicing dhikr-like repetitive prayer with Christian concepts — see the fsspx project's dossier. In Olavo de Carvalho's Curso Online de Filosofia, aula 279 (17 January 2015), he is called a traditionalist Catholic theologian and Schuon's second-closest collaborator, and Carvalho says it was he who put him in contact with the tariqa. That is an interested third party's characterization; it does not displace Sedgwick, and the same speaker said in aula 169 (25 August 2012) that Schuon had several right arms, like an octopus. Recorded as his attributed claim and raised with the fsspx dossier rather than adopted.",
       "dates": "1929–2006",
       "country": "USA",
       "sources": [
@@ -473,16 +477,19 @@
         "en-academic-rama",
         "rama-validity-wayback",
         "academia-rama",
-        "legacy-rama-obit"
+        "legacy-rama-obit",
+        "olavo-cof-279",
+        "olavo-cof-169"
       ]
     },
     {
       "name": "Titus Burckhardt (Ibrahim Izz ad-Din)",
-      "role": "Swiss author on sacred art and civilization; Schuon's closest lifelong collaborator.",
+      "role": "Swiss author on sacred art and civilization; Schuon's closest lifelong collaborator. Asked in Olavo de Carvalho's Curso Online de Filosofia, aula 156 (26 May 2012), about Burckhardt's conversion to Islam, Carvalho answered that Burckhardt never converted, because nobody in a [[tariqa]]'s elite converts and the notion has no place at that level, and that Schuon was Burckhardt's shaykh. The first half sits against this dataset's own record of Burckhardt under a Muslim name and is carried as his attributed claim, not as a correction.",
       "dates": "1908–1984",
       "country": "Switzerland",
       "sources": [
-        "wikipedia-burckhardt"
+        "wikipedia-burckhardt",
+        "olavo-cof-156"
       ]
     },
     {
@@ -529,11 +536,14 @@
     },
     {
       "name": "Whitall Perry",
-      "role": "American compiler of 'A Treasury of Traditional Wisdom'; member of Schuon's circle in Lausanne and Bloomington.",
+      "role": "American compiler of 'A Treasury of Traditional Wisdom'; member of Schuon's circle in Lausanne and Bloomington. Three dated lectures of Olavo de Carvalho's Curso Online de Filosofia mention him, all as Carvalho's attributed account: aula 206 (1 June 2013), that he met Perry on his first visit to the United States, in '86; aula 169 (25 August 2012), that Perry was one of Schuon's right arms — with the qualifier that Schuon had several right arms, like an octopus, which is worth keeping in view whenever this speaker ranks anyone in the order; and aula 279 (17 January 2015), that Perry compiled the Treasury under Schuon's guidance.",
       "dates": "1920–2005",
       "country": "USA",
       "sources": [
-        "wikipedia-perry"
+        "wikipedia-perry",
+        "olavo-cof-206",
+        "olavo-cof-169",
+        "olavo-cof-279"
       ]
     },
     {
@@ -547,11 +557,12 @@
     },
     {
       "name": "Marco Pallis",
-      "role": "British-Greek mountaineer and author on Tibetan Buddhism; Traditionalist author. Biographical dates to verify.",
+      "role": "British-Greek mountaineer and author on Tibetan Buddhism; Traditionalist author. Biographical dates to verify. In Olavo de Carvalho's Curso Online de Filosofia, aula 279 (17 January 2015), Carvalho said he first came to Schuon's tariqa through Pallis. That is the only account of Pallis's relation to the order carried here; it is an interested participant's, and it is not corroborated.",
       "dates": "1895–1989",
       "country": "England",
       "sources": [
-        "wikipedia-traditionalist-school"
+        "wikipedia-traditionalist-school",
+        "olavo-cof-279"
       ]
     },
     {
@@ -658,8 +669,10 @@
       "place": "Basel → Lausanne → Bloomington",
       "relation": "Schuon's branch: independent from 1936, Marian in devotion from 1965, formally 'Maryamiyya' from 1969; headquartered in Lausanne 1941–1980 and Bloomington 1980–1998; decentralized after Schuon's retirement into autonomous zawiyas.",
       "sources": [
-        "wikipedia-maryamiyya"
-      ]
+        "wikipedia-maryamiyya",
+        "olavo-cof-220"
+      ],
+      "notes": "One ex-member's dated account of life inside the order, recorded as his attributed testimony and corroborated nowhere here: in the Curso Online de Filosofia, aula 220 (14 September 2013), Olavo de Carvalho described belonging to a [[tariqa]] as complete passivity before the shaykh — the disciple, whom he said the order calls fakir, being in the master's hands as a corpse is in the hands of the one who washes it — and gave two rules: one may enter but not leave, and one leaves only by expulsion. He gave Schuon's practice as his example: that Schuon decided what furniture a member kept at home, how many cigarettes a day he might smoke and how he should dress, and that the order was socially flat, having only everybody and the shaykh with some intermediate officers between. He is a self-declared resentful ex-member describing a semi-private order from the inside, and this is his characterization, not a finding; the same lecture makes claims about named public figures that this project locates and does not adopt (see the disambiguation section)."
     },
     {
       "name": "The Vâlsan / Paris line",
@@ -801,11 +814,14 @@
       },
       {
         "title": "Follower ≠ member: the 'Christian Schuonians'",
-        "text": "Sedgwick documents a category the record keeps flattening: Christians who followed Schuon personally without ever joining the tariqa — Rama Coomaraswamy's American Catholic group ('none of these Christians were actually members of the Maryamiyya'), probably Jean Borella's French circle, and the Orthodox scholar James Cutsinger, Schuon's editor, 'never (as an Orthodox Christian) a formal member'. Membership claims about individuals require self-disclosure or scholarship — adjacency is not initiation.",
+        "text": "Sedgwick documents a category the record keeps flattening: Christians who followed Schuon personally without ever joining the tariqa — Rama Coomaraswamy's American Catholic group ('none of these Christians were actually members of the Maryamiyya'), probably Jean Borella's French circle, and the Orthodox scholar James Cutsinger, Schuon's editor, 'never (as an Orthodox Christian) a formal member'. Membership claims about individuals require self-disclosure or scholarship — adjacency is not initiation. One participant's dated account describes both the arrangement and its closing, and is carried attributed rather than as corroboration: in the Curso Online de Filosofia, aula 156 (26 May 2012), Olavo de Carvalho said Schuon directed Catholic, Orthodox, Protestant and Buddhist groups and moved people between them at will, and in aula 279 (17 January 2015) that the order was multi-confessional when he joined and that Schuon, late in life and under pressure from other tariqas, decreed that only Muslims would be accepted. The same speaker, in aula 242 (15 March 2014), named two prominent Christian clergymen — a Spanish Catholic priest and an Orthodox bishop — as members of the tariqa. That is a third party's assertion about named public figures by a self-declared resentful ex-member, and it is the very move this entry exists to resist, because it flattens the follower/member distinction Sedgwick draws. It is located here and deliberately not carried as a membership record.",
         "sources": [
           "sedgwick-atmw-archive",
           "sedgwick-obit-cutsinger",
-          "upton-confession"
+          "upton-confession",
+          "olavo-cof-156",
+          "olavo-cof-279",
+          "olavo-cof-242"
         ]
       },
       {
@@ -817,7 +833,7 @@
       },
       {
         "title": "Olavo de Carvalho on his own tariqa years — a participant-witness whose tellings diverge",
-        "text": "Between 2009 and 2014 Olavo de Carvalho talked about the Maryamiyya repeatedly in his Curso Online de Filosofia, and the vaulted corpus of that course (cronologia/archive, ADR-0005) lets those statements be cited by lecture number and lecture date rather than through a hostile channel's re-cut. Two rules govern how they are used here. First, he is a participant-witness on his own involvement and an attributed, interested voice on everyone else: in aula 218 (31 August 2013) he confirmed that he had belonged to Schuon's tariqa and that a critic's statement that he was expelled from it checked out perfectly, and in aula 094 (12 February 2011) that he was appointed [[muqaddam]] for Brazil as soon as he entered — self-disclosure, which this project accepts for his own membership. His characterizations of Nasr, Lings, Vâlsan, Borella and Upton are a different kind of claim and are carried attributed, beside the published scholarship, never in place of it. Second, his account does not adjudicate anything. On the date of the break, his own tellings do not even agree with each other: in 2011 he described leaving as his own act and dated the accusation that followed to his fortieth year, while in 2013 he accepted the word 'expelled'; that divergence is a fact about the source, and the 1986/87 founding and the end-of-the-1980s break stay flagged. On his title, his self-description as [[muqaddam]] agrees with the Brazilian sources and not with Sedgwick's obituary notice, which says [[khalifa]] — recorded as a divergence, not settled by a participant's word against a scholar's. One earlier datum belongs here too: in aula 019 (15 August 2009) he said he had come across Guénon's books in the 1970s and had read them all by about 1981 or 1982, which places his reading years before any of the dates above; the frequently repeated line in that same lecture claiming eyewitness standing among the tariqas is not his — it belongs to a student's letter he reads aloud, and is attributed here to that correspondent. Two further limits are worth stating plainly. Eleven of the lectures behind this section carry a date in the corpus manifest; several others that discuss the order at length carry none, because the corpus's unreviewed half has no headers to read a date from, and an identification without a date is a partial result that is not cited as a claim. And none of the wording is quoted anywhere in this dataset: the transcriptions are a community effort that has not been checked against the audio, so everything attributed to these lectures is paraphrase.",
+        "text": "Between 2009 and 2014 Olavo de Carvalho talked about the Maryamiyya repeatedly in his Curso Online de Filosofia, and the vaulted corpus of that course (cronologia/archive, ADR-0005) lets those statements be cited by lecture number and lecture date rather than through a hostile channel's re-cut. Two rules govern how they are used here. First, he is a participant-witness on his own involvement and an attributed, interested voice on everyone else: in aula 218 (31 August 2013) he confirmed that he had belonged to Schuon's tariqa and that a critic's statement that he was expelled from it checked out perfectly, and in aula 094 (12 February 2011) that he was appointed [[muqaddam]] for Brazil as soon as he entered — self-disclosure, which this project accepts for his own membership. His characterizations of Nasr, Lings, Vâlsan, Borella and Upton are a different kind of claim and are carried attributed, beside the published scholarship, never in place of it. Second, his account does not adjudicate anything. On the date of the break, his own tellings do not even agree with each other: in 2011 he described leaving as his own act and dated the accusation that followed to his fortieth year, while in 2013 he accepted the word 'expelled'; that divergence is a fact about the source, and the 1986/87 founding and the end-of-the-1980s break stay flagged. On his title, his self-description as [[muqaddam]] agrees with the Brazilian sources and not with Sedgwick's obituary notice, which says [[khalifa]] — recorded as a divergence, not settled by a participant's word against a scholar's. One earlier datum belongs here too: in aula 019 (15 August 2009) he said he had come across Guénon's books in the 1970s and had read them all by about 1981 or 1982, which places his reading years before any of the dates above; the frequently repeated line in that same lecture claiming eyewitness standing among the tariqas is not his — it belongs to a student's letter he reads aloud, and is attributed here to that correspondent. A later pass through the 2012–2015 lectures adds three things to this picture. The eyewitness claim does exist in his own voice, in a different lecture: in aula 171 (8 September 2012) he said that direct experience of Islamic esotericism through Schuon had happened to very few people and had given him a privileged observation post, and that he had watched history from it as an eyewitness. What does not drift is the order's structure: aula 156 (26 May 2012), aula 242 (15 March 2014) and aula 279 (17 January 2015) agree that Schuon's was a multi-confessional order and that he belonged to it — it is the ending, and only the ending, that he narrates differently each time. And the same lectures carry claims about other people that this project locates and does not adopt: in aula 220 (14 September 2013) a member of the British royal family and a former Swedish prime minister are named among the disciples of Schuon's disciples, and in aula 242 two named Christian clergymen are called members of the tariqa. A participant's word is self-disclosure about himself and an accusation about anyone else. One reliability caution belongs beside them: aula 220 puts Schuon's return to Europe announcing that he would islamize it in the 1950s, where this dataset has him back from Mostaganem in the 1930s and the order in Lausanne from 1941 — the same loose dating of other people's lives already noted at Martin Lings. Two further limits are worth stating plainly. Eighteen of the lectures behind this section carry a date in the corpus manifest, none of them among the fourteen headers archive#20 found inconsistent with their neighbours; several others that discuss the order at length carry none, because the corpus's unreviewed half has no headers to read a date from, and an identification without a date is a partial result that is not cited as a claim. And none of the wording is quoted anywhere in this dataset: the transcriptions are a community effort that has not been checked against the audio, so everything attributed to these lectures is paraphrase.",
         "sources": [
           "olavo-cof-094",
           "olavo-cof-218",
@@ -827,7 +843,14 @@
           "olavo-cof-209",
           "sedgwick-blog-olavo-death",
           "sedgwick-blog-brazil",
-          "olavo-cof-019"
+          "olavo-cof-019",
+          "olavo-cof-171",
+          "olavo-cof-156",
+          "olavo-cof-220",
+          "olavo-cof-242",
+          "olavo-cof-279",
+          "olavo-cof-206",
+          "olavo-cof-169"
         ]
       }
     ]
@@ -1663,6 +1686,55 @@
       "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 241, 1 March 2014 — on Nasr’s dependence on Schuon, the size of the Brazilian group, and the accusation against Schuon",
       "url": "https://archive.org/details/COFemAudio",
       "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 241), 1 March 2014. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group and in aula 241 that he has his own reasons for resentment against Schuon. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form-ordinal' — read from the transcription's own header, never inferred). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-156",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 156, 26 May 2012 — on Titus Burckhardt and conversion, and on Schuon directing groups of several religions",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 156), 26 May 2012. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-169",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 169, 25 August 2012 — on Whitall Perry and on Schuon having had several 'right arms'",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 169), 25 August 2012. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-171",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 171, 8 September 2012 — on his direct experience of Islamic esotericism through Schuon and his claim to eyewitness standing",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 171), 8 September 2012. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-206",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 206, 1 June 2013 — on his first visit to the United States in '86 and meeting Whitall Perry",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 206), 1 June 2013. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form-ordinal' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-220",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 220, 14 September 2013 — on rule and obedience inside a tariqa, and on Schuon's regulation of members' daily life",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 220), 14 September 2013. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-242",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 242, 15 March 2014 — on being expelled after quarrelling with the shaykh, and on who he says belonged to the order",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 242), 15 March 2014. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-279",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 279, 17 January 2015 — on how he reached Schuon's tariqa, why he joined, and the order's later restriction to Muslims",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 279), 17 January 2015. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
       "type": "testimony"
     }
   ]
