@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-27",
   "snapshots": {
     "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf": {
       "refId": "religioperennis-rama",
@@ -194,6 +194,12 @@
       "timestamp": "20260420220904",
       "checkedAt": "2026-07-24"
     },
+    "https://search.worldcat.org/title/crossing-boundaries-essays-on-the-ethical-status-of-mysticism/oclc/47989814": {
+      "refId": "urban-dance-of-masks",
+      "archiveUrl": "https://web.archive.org/web/20260727100816/https://search.worldcat.org/title/crossing-boundaries-essays-on-the-ethical-status-of-mysticism/oclc/47989814",
+      "timestamp": "20260727100816",
+      "checkedAt": "2026-07-27"
+    },
     "https://traditionalistblog.blogspot.com/": {
       "refId": "sedgwick-blog",
       "archiveUrl": "https://web.archive.org/web/20260515174817/https://traditionalistblog.blogspot.com/",
@@ -259,6 +265,12 @@
       "archiveUrl": "https://web.archive.org/web/20260720013504/https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
       "timestamp": "20260720013504",
       "checkedAt": "2026-07-24"
+    },
+    "https://web.archive.org/web/20191221182936/http://olavodecarvalho.org/influencias-discretas/": {
+      "refId": "olavo-influencias",
+      "archiveUrl": "https://web.archive.org/web/20260727100956/https://olavodecarvalho.org/influencias-discretas/",
+      "timestamp": "20260727100956",
+      "checkedAt": "2026-07-27"
     },
     "https://www.academia.edu/3393758/Rama_Coomaraswamy_between_Perennialism_and_traditional_Catholicism": {
       "refId": "academia-rama",
