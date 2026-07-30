@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-07-30",
   "snapshots": {
     "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf": {
       "refId": "religioperennis-rama",
@@ -62,6 +62,12 @@
       "timestamp": "20260306100627",
       "checkedAt": "2026-07-25"
     },
+    "https://en.wikipedia.org/wiki/Ananda_Coomaraswamy": {
+      "refId": "wikipedia-ananda",
+      "archiveUrl": "https://web.archive.org/web/20260714020633/https://en.wikipedia.org/wiki/Ananda_Coomaraswamy",
+      "timestamp": "20260714020633",
+      "checkedAt": "2026-07-30"
+    },
     "https://en.wikipedia.org/wiki/Frithjof_Schuon": {
       "refId": "wikipedia-schuon",
       "archiveUrl": "https://web.archive.org/web/20260610174317/https://en.wikipedia.org/wiki/Frithjof_Schuon",
@@ -73,6 +79,12 @@
       "archiveUrl": "https://web.archive.org/web/20260216142226/https://en.wikipedia.org/wiki/Jean_Borella",
       "timestamp": "20260216142226",
       "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Marco_Pallis": {
+      "refId": "wikipedia-pallis",
+      "archiveUrl": "https://web.archive.org/web/20260628230823/https://en.wikipedia.org/wiki/Marco_Pallis",
+      "timestamp": "20260628230823",
+      "checkedAt": "2026-07-30"
     },
     "https://en.wikipedia.org/wiki/Martin_Lings": {
       "refId": "wikipedia-lings",
