@@ -12,11 +12,12 @@
 
 const fs = require('fs');
 const path = require('path');
-const { glossaryMarkerIds } = require('../build.js');
+const { glossaryMarkerIds, placeIndex, resolvePlaceString } = require('../build.js');
 
 const ROOT = path.join(__dirname, '..');
 const FILE = 'data/chronology.json';
 const GLOSSARY_TERMS_FILE = 'data/glossary-terms.json';
+const PLACES_FILE = 'data/places.json';
 const errors = [];
 
 const isStr = (v) => typeof v === 'string' && v.length > 0;
@@ -107,6 +108,52 @@ else {
     if (ev.date !== undefined && !isStr(ev.date)) err(`${at}.date must be a string`);
     if (typeof ev.dateVerified !== 'boolean') err(`${at}.dateVerified must be boolean`);
     checkSources(at, ev.sources, true);
+  });
+}
+
+// ---- threads (per-repo lane taxonomy — core#23) -----------------------------
+// Events may carry an OPTIONAL `threads: string[]` naming the storyline(s)
+// they belong to. The vocabulary is per-repo and editorial: it must be declared
+// in meta.threads — with a visible editorial note and each lane's grounding —
+// never invented in code or derived by clustering the text. An absent field is
+// always valid (this rolls out with no flag day), and a dataset without the
+// key must build byte-identically. See sourcing-rules ("Thread taxonomies are
+// a reading") for the editorial rules the declaration encodes.
+const laneIds = new Set();
+if (d.meta && d.meta.threads !== undefined) {
+  const t = d.meta.threads;
+  const at = 'meta.threads';
+  if (!isStr(t.note)) {
+    err(`${at}.note missing — the visible statement that the lane taxonomy is an editorial reading, not a neutral fact (rendered wherever lanes render)`);
+  }
+  if (!isArr(t.lanes) || t.lanes.length === 0) {
+    err(`${at}.lanes must be a non-empty array of { id, label, basis }`);
+  } else {
+    t.lanes.forEach((l, i) => {
+      const lAt = `${at}.lanes[${i}]`;
+      if (!isStr(l.id)) err(`${lAt}.id missing`);
+      else if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(l.id)) err(`${lAt}.id must be kebab-case, got "${l.id}"`);
+      else if (laneIds.has(l.id)) err(`${lAt}.id duplicated: ${l.id}`);
+      else laneIds.add(l.id);
+      if (!isStr(l.label)) err(`${lAt}.label missing`);
+      if (!isStr(l.basis)) err(`${lAt}.basis missing — name what grounds this lane, so the editorial decision is recorded in the data, not implied by it`);
+      checkSources(lAt, l.sources, false);
+    });
+  }
+}
+if (isArr(d.events)) {
+  d.events.forEach((ev, i) => {
+    if (ev.threads === undefined) return;
+    const at = `events[${i}]`;
+    if (!isArr(ev.threads) || !ev.threads.every(isStr)) {
+      return err(`${at}.threads must be an array of lane ids (an array even for one lane — cross-cutting events belong to more than one thread)`);
+    }
+    if (laneIds.size === 0) {
+      return err(`${at}.threads used but meta.threads declares no lanes — declare the taxonomy (note + lanes with id/label/basis) before tagging events`);
+    }
+    for (const th of ev.threads) {
+      if (!laneIds.has(th)) err(`${at}.threads: unknown lane id "${th}" (not declared in meta.threads.lanes)`);
+    }
   });
 }
 
@@ -216,6 +263,118 @@ if (d.branchTimeline !== undefined) {
       }
       checkSources(bAt, b.sources, true);
     });
+  }
+}
+
+// ---- numbersChart (contested-numbers chart) -------------------------------
+// Design principle: contested numbers are never silently unified. Each series
+// carries its OWN unit and its OWN source label and its OWN citation; the chart
+// as a whole carries an explicit "not directly comparable" banner (unitNote).
+if (d.numbersChart !== undefined) {
+  const nc = d.numbersChart;
+  const at = 'numbersChart';
+  for (const k of ['heading', 'navLabel', 'note']) {
+    if (nc[k] !== undefined && !isStr(nc[k])) err(`${at}.${k} must be a string`);
+  }
+  // The "not directly comparable" banner is mandatory — it is the honesty flag
+  // that keeps incomparable series from reading as one comparable measurement.
+  if (!isStr(nc.unitNote)) err(`${at}.unitNote missing (the explicit "not directly comparable" banner is required)`);
+  if (!isArr(nc.series) || nc.series.length === 0) {
+    err(`${at}.series must be a non-empty array`);
+  } else {
+    nc.series.forEach((s, i) => {
+      const sAt = `${at}.series[${i}]`;
+      if (!isStr(s.label)) err(`${sAt}.label missing`);
+      // Per-series source label (WHO reported it) and unit — the series are
+      // never merged onto one scale, so each declares its own.
+      if (!isStr(s.sourceLabel)) err(`${sAt}.sourceLabel missing (name who reported this series)`);
+      if (!isStr(s.unit)) err(`${sAt}.unit missing (each series keeps its own unit)`);
+      if (s.axisMax !== undefined && (!isNum(s.axisMax) || s.axisMax <= 0)) {
+        err(`${sAt}.axisMax must be a positive number`);
+      }
+      // Every series must be cited — the bars never assert an uncited number.
+      checkSources(sAt, s.sources, true);
+      if (!isArr(s.points) || s.points.length === 0) {
+        err(`${sAt}.points must be a non-empty array`);
+      } else {
+        s.points.forEach((p, j) => {
+          const pAt = `${sAt}.points[${j}]`;
+          if (!isNum(p.value)) err(`${pAt}.value must be a number`);
+          if (!isStr(p.display)) err(`${pAt}.display missing (the human-readable, attributed value)`);
+          if (p.year !== undefined && !isNum(p.year) && !isStr(p.year)) {
+            err(`${pAt}.year must be a number or string`);
+          }
+        });
+      }
+    });
+  }
+}
+
+// ---- placesMap (gazetteer-driven map) --------------------------------------
+// Design principles (core#24): a place string resolves to a LIST of gazetteer
+// ids (compound " / " strings are one event in several places); an unresolved
+// place string is a WARNING, never a hard error — the dataset must stay
+// editable without a coordinate lookup blocking a commit. The vendored
+// gazetteer itself, however, must be well-formed when the map is declared.
+if (d.placesMap !== undefined) {
+  const pm = d.placesMap;
+  const at = 'placesMap';
+  if (pm === null || typeof pm !== 'object' || Array.isArray(pm)) {
+    err(`${at} must be an object`);
+  } else {
+    for (const k of ['heading', 'navLabel', 'note']) {
+      if (pm[k] !== undefined && !isStr(pm[k])) err(`${at}.${k} must be a string`);
+    }
+  }
+
+  let gaz = null;
+  try {
+    gaz = JSON.parse(fs.readFileSync(path.join(ROOT, PLACES_FILE), 'utf8'));
+  } catch (e) {
+    err(`${at} is declared but ${PLACES_FILE} is missing or unreadable (${e.message}). Run: node scripts/sync-places.js`);
+  }
+  if (gaz) {
+    if (!isArr(gaz.places) || gaz.places.length === 0) {
+      err(`${PLACES_FILE}: places must be a non-empty array`);
+    } else {
+      const seen = new Set();
+      gaz.places.forEach((p, i) => {
+        const pAt = `${PLACES_FILE}: places[${i}]`;
+        if (!isStr(p.id)) err(`${pAt}.id missing`);
+        else if (seen.has(p.id)) err(`${pAt}.id "${p.id}" duplicated`);
+        else seen.add(p.id);
+        if (!isStr(p.name)) err(`${pAt}.name missing`);
+        if (p.kind === 'non-geographic') {
+          // Scopes ("Worldwide") deliberately carry no coordinates — and so
+          // have no coordinate source to cite.
+          if (p.lat !== undefined || p.lon !== undefined) err(`${pAt}: non-geographic entries must not carry lat/lon`);
+        } else {
+          // Coordinates are cited like everything else in this family.
+          if (!isStr(p.source)) err(`${pAt}.source missing (coordinates are cited like any other fact)`);
+          if (!isNum(p.lat) || p.lat < -90 || p.lat > 90) err(`${pAt}.lat must be a number in [-90, 90]`);
+          if (!isNum(p.lon) || p.lon < -180 || p.lon > 180) err(`${pAt}.lon must be a number in [-180, 180]`);
+        }
+        if (p.variants !== undefined && (!isArr(p.variants) || p.variants.some((v) => !isStr(v)))) {
+          err(`${pAt}.variants must be an array of strings`);
+        }
+      });
+    }
+
+    // Unresolved place strings: warn, never fail (core#24).
+    const index = placeIndex(gaz);
+    const unresolved = new Map(); // string -> event count
+    for (const ev of d.events || []) {
+      if (!ev.place) continue;
+      const { missing } = resolvePlaceString(ev.place, index);
+      for (const m of missing) unresolved.set(m, (unresolved.get(m) || 0) + 1);
+    }
+    if (unresolved.size) {
+      console.warn(
+        `⚠ ${unresolved.size} place string(s) not in the gazetteer (events stay valid; they will not be mapped):\n`
+        + [...unresolved.entries()].map(([s, n]) => `  - "${s}" (${n} event${n === 1 ? '' : 's'})`).join('\n')
+        + '\n  Add them to cronologia/core data/places.json and re-run scripts/sync-places.js.'
+      );
+    }
   }
 }
 
