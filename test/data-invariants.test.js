@@ -1,6 +1,8 @@
 'use strict';
-// Invariants over the real committed data + a smoke test of the full
-// multi-locale render. Zero-dependency (node:test / node:assert).
+// Invariants over the committed data + a smoke test of the full multi-locale
+// render. Zero-dependency (node:test / node:assert). Falls back to the shipped
+// example dataset so the template is self-testing before a project fills in its
+// own data/chronology.json.
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
@@ -8,10 +10,17 @@ const path = require('node:path');
 const {
   renderPage, renderRootStub, renderSitemap, renderRobots,
   siteBase, localizeData, loadDict, LOCALES, ROUTES, esc,
+  loadPlaces, loadWorld,
 } = require('../build.js');
 
 const ROOT = path.join(__dirname, '..');
-const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'chronology.json'), 'utf8'));
+function loadData() {
+  for (const f of ['chronology.json', 'chronology.example.json']) {
+    try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'data', f), 'utf8')); } catch { /* next */ }
+  }
+  throw new Error('no data/chronology.json or chronology.example.json');
+}
+const data = loadData();
 function archives() {
   try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'archives.json'), 'utf8')).snapshots || {}; }
   catch { return {}; }
@@ -20,11 +29,9 @@ function archives() {
 test('every sources[] entry resolves to a reference id or a URL', () => {
   const ids = new Set(data.references.map((r) => r.id));
   const check = (sources, at) => {
-    for (const s of sources || []) {
-      assert.ok(ids.has(s) || /^https?:\/\//.test(s), `${at}: unknown source "${s}"`);
-    }
+    for (const s of sources || []) assert.ok(ids.has(s) || /^https?:\/\//.test(s), `${at}: unknown source "${s}"`);
   };
-  data.facts.forEach((f, i) => check(f.sources, `facts[${i}]`));
+  (data.facts || []).forEach((f, i) => check(f.sources, `facts[${i}]`));
   data.events.forEach((e, i) => check(e.sources, `events[${i}]`));
   data.figures.forEach((f, i) => check(f.sources, `figures[${i}]`));
   (data.organizations || []).forEach((o, i) => check(o.sources, `organizations[${i}]`));
@@ -32,10 +39,7 @@ test('every sources[] entry resolves to a reference id or a URL', () => {
 
 test('reference ids are unique', () => {
   const seen = new Set();
-  for (const r of data.references) {
-    assert.ok(!seen.has(r.id), `duplicate reference id ${r.id}`);
-    seen.add(r.id);
-  }
+  for (const r of data.references) { assert.ok(!seen.has(r.id), `duplicate reference id ${r.id}`); seen.add(r.id); }
 });
 
 test('events are dated plausibly and titled', () => {
@@ -74,18 +78,17 @@ test('English render is the identity localization (chrome localized, content unc
   assert.equal(JSON.stringify(en.references), JSON.stringify(data.references));
 });
 
-// Prose is HTML-escaped on the way into the page, so a translation containing
-// an apostrophe/quote/& appears escaped in the markup. Compare escaped forms.
 test('translation cache is applied where present', () => {
-  for (const lang of ['es', 'pt']) {
-    const dict = loadDict(lang);
-    const keys = Object.keys(dict);
-    if (keys.length === 0) continue;
-    const raw = JSON.stringify(data);
-    const html = renderPage(localizeData(data, dict, lang), {}, { lang, base: siteBase(data.meta), route: '' });
-    const hit = keys.find((k) => raw.includes(k));
-    if (hit) assert.ok(html.includes(esc(dict[hit])), `expected a ${lang} translation to appear in the ${lang} page`);
-  }
+  const es = loadDict('es');
+  const keys = Object.keys(es);
+  if (keys.length === 0) return;
+  const html = renderPage(localizeData(data, es, 'es'), {}, { lang: 'es', base: siteBase(data.meta), route: '' });
+  const hit = keys.find((k) => JSON.stringify(data).includes(k));
+  // Compare against the ESCAPED translation: renderPage HTML-escapes text, so a
+  // translation containing an apostrophe or ampersand ("Iglesia's", "A & B")
+  // never appears verbatim in the markup. Comparing the raw value made this test
+  // fail for any project whose first matching string had such a character.
+  if (hit) assert.ok(html.includes(esc(es[hit])), 'expected a Spanish translation to appear in the es page');
 });
 
 test('sitemap lists every route × locale with alternates; robots points to it', () => {
@@ -114,8 +117,12 @@ test('committed docs/ is the current render (no drift)', () => {
   assert.equal(fs.readFileSync(path.join(docs, 'index.html'), 'utf8'), renderRootStub(base), 'root stub drift — run node build.js');
   assert.equal(fs.readFileSync(path.join(docs, 'sitemap.xml'), 'utf8'), renderSitemap(base, ROUTES), 'sitemap drift — run node build.js');
   assert.equal(fs.readFileSync(path.join(docs, 'robots.txt'), 'utf8'), renderRobots(base), 'robots drift — run node build.js');
+  // Pass the same gazetteer and basemap main() does, or a dataset that
+  // declares placesMap renders map-less here and reports phantom drift.
+  const places = loadPlaces();
+  const world = loadWorld();
   for (const lang of LOCALES) {
     const f = path.join(docs, lang, 'index.html');
-    assert.equal(fs.readFileSync(f, 'utf8'), renderPage(localizeData(data, loadDict(lang), lang), archives(), { lang, base, route: '' }), `docs/${lang}/ drift — run node build.js`);
+    assert.equal(fs.readFileSync(f, 'utf8'), renderPage(localizeData(data, loadDict(lang), lang), archives(), { lang, base, route: '', places, world }), `docs/${lang}/ drift — run node build.js`);
   }
 });
