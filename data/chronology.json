@@ -5,7 +5,7 @@
     "description": "An open, source-referenced chronology of the Tariqa Maryamiyya — the Sufi order founded by Frithjof Schuon — and the wider Traditionalist School (Guénon–Schuon perennialism), with special attention to its documented connections: to Catholic traditionalism and to Brazil.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/tariqa/",
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-30",
     "dataQualityNote": "This is a work-in-progress dataset about a semi-private initiatic order and, in part, living people. It is compiled only from published scholarship (Mark Sedgwick's work is the academic backbone) and participants' own public writings; sympathetic, critical and apostate sources are labeled as such; contested characterizations are attributed, never asserted in the site's own voice; dates the sources dispute are flagged with a ? mark; and no private individuals are named. Corrections against published sources are welcome.",
     "vizChips": [
       {
@@ -80,7 +80,7 @@
       "dateVerified": false,
       "place": "Paris, France",
       "title": "Guénon's Sufi affiliation",
-      "text": "René Guénon adopts Islam in the Shadhili lineage transmitted through Ivan Aguéli (Abd al-Hadi); sources date the affiliation 1912 and the initiation itself variously c. 1910–1912.",
+      "text": "René Guénon adopts Islam in the Shadhili lineage transmitted through Ivan Aguéli (Abd al-Hadi). The two dates in circulation answer different questions, and the English Wikipedia article carries both: it states he was initiated into Islamic esotericism from as early as 1910, and that he first adopted Islam in 1912. The initiatic attachment and the adoption of Islam are therefore dated separately — c. 1910 for the former, 1912 for the latter — and the initiation itself is dated variously c. 1910–1912 across sources. The date stays flagged pending scholarship that fixes it.",
       "sources": [
         "wikipedia-guenon"
       ]
@@ -110,12 +110,13 @@
     {
       "year": 1927,
       "date": "1927",
-      "dateVerified": false,
+      "dateVerified": true,
       "place": "Paris, France",
       "title": "'La Crise du monde moderne'",
-      "text": "Guénon publishes the school's most famous statement of civilizational critique.",
+      "text": "Guénon publishes the school's most famous statement of civilizational critique (Paris: Bossard, 1927 — the year confirmed against the French Wikipedia bibliographic record for the book).",
       "sources": [
-        "wikipedia-guenon"
+        "wikipedia-guenon",
+        "fr-wikipedia-crise"
       ]
     },
     {
@@ -135,7 +136,7 @@
       "dateVerified": false,
       "place": "Mostaganem, Algeria",
       "title": "Schuon initiated in the Alawiyya",
-      "text": "Frithjof Schuon enters Islam and is initiated at the [[zawiya]] of Shaykh Ahmad al-Alawi, receiving the name Isa Nur ad-Din; Wikipedia's own articles date the stay 1932 or 1933–34 — the discrepancy is recorded, not resolved.",
+      "text": "Frithjof Schuon enters Islam and is initiated at the [[zawiya]] of Shaykh Ahmad al-Alawi, receiving the name Isa Nur ad-Din. The Maryamiyya article dates the journey to Mostaganem to the end of 1932; the discrepancy this entry previously recorded between Wikipedia's own articles (1932 vs 1933–34) is no longer present in them as of July 2026 — the Schuon article now leaves the trip undated. The year stays flagged pending a check against Sedgwick's print scholarship.",
       "sources": [
         "wikipedia-maryamiyya",
         "wikipedia-schuon"
@@ -294,7 +295,7 @@
       "dateVerified": false,
       "place": "Bloomington / São Paulo, Brazil",
       "title": "The Brazilian branch founded",
-      "text": "Olavo de Carvalho leads a group of Brazilians to Bloomington, is initiated (taking the name Sidi Muhammad Ibrahim, per the critical documentary blog, corroborated in outline by Sedgwick), and is appointed [[muqaddam]] in Brazil under Martin Lings's guidance — described as the first tariqa brought to Brazil by Brazilians. Sources split between 1986 (Sedgwick) and 1987 (Brazilian tertiary sources) for the founding. Sedgwick's later obituary notice (28 Jan 2022) calls him \"briefly a Maryami and the [[khalifa]] of Frithjof Schuon in Brazil\", where this dataset and the Brazilian sources say [[muqaddam]]; the two titles are distinct and the divergence is recorded, not resolved. Carvalho's own dated account, in the Curso Online de Filosofia, adds a fourth voice to this record without settling it. In aula 094 (12 February 2011) he said that as soon as he entered Schuon's tariqa he was immediately appointed its [[muqaddam]] — which he glossed as the organization's representative for Brazil — that he had not asked for the post and found the speed of the appointment odd, and that the order then passed its instructions to a different man, creating a conflict of authority he described as dishonest. In aula 033 (21 November 2009) he said that at the time of the essays collected in Universalidade e Abstração (1983) he was an aspirant who later became a member, that he wrote in the manner of the Études Traditionnelles circle in order to please the shaykh, and that he was accepted at the first attempt while others had been applying yearly for twelve years. His self-description as [[muqaddam]] agrees with this dataset and the Brazilian sources and not with Sedgwick's obituary notice, which says [[khalifa]]; a participant's self-disclosure does not adjudicate a scholarly source, and the divergence stays recorded rather than resolved. Two further dated lectures bear on how he came into the order. In aula 206 (1 June 2013) he said that in '86 he was in the United States for the first time and that he met Whitall Perry there — a first-person placing of himself in the country in the year Sedgwick gives, although in that passage he named neither Bloomington nor the initiation. In aula 279 (17 January 2015) he described the route in: he reached Schuon's tariqa first through the Buddhist author Marco Pallis, and then Rama P. Coomaraswamy — whom he called a traditionalist Catholic theologian and Schuon's second-closest collaborator — put him in contact with it; his stated reason for joining was that the order was multi-confessional, so that belonging to it would not commit him to another religion. His own entry is self-disclosure and is accepted as such; what he says there about Pallis and about Coomaraswamy is a claim about third parties, carried attributed and, in Coomaraswamy's case, against Sedgwick rather than with him. None of this is quoted: the corpus text is a community transcription unchecked against the audio.",
+      "text": "Olavo de Carvalho leads a group of Brazilians to Bloomington, is initiated (taking the name Sidi Muhammad Ibrahim, per the critical documentary blog, corroborated in outline by Sedgwick), and is appointed [[muqaddam]] in Brazil under Martin Lings's guidance — described as the first tariqa brought to Brazil by Brazilians. Sources split between 1986 and 1987 for the founding: 1986 is the year the hostile Jardim series gives — and Carvalho's own first-person placing of himself in the United States in '86, below, is consistent with it — while Brazilian tertiary sources give 1987. Sedgwick's published abstract places the Brazilian episode only in the 1980s and 1990s without a year, and the full Aries 21:2 article remains the document expected to settle it. Sedgwick's later obituary notice (28 Jan 2022) calls him \"briefly a Maryami and the [[khalifa]] of Frithjof Schuon in Brazil\", where this dataset and the Brazilian sources say [[muqaddam]]; the two titles are distinct and the divergence is recorded, not resolved. Carvalho's own dated account, in the Curso Online de Filosofia, adds a fourth voice to this record without settling it. In aula 094 (12 February 2011) he said that as soon as he entered Schuon's tariqa he was immediately appointed its [[muqaddam]] — which he glossed as the organization's representative for Brazil — that he had not asked for the post and found the speed of the appointment odd, and that the order then passed its instructions to a different man, creating a conflict of authority he described as dishonest. In aula 033 (21 November 2009) he said that at the time of the essays collected in Universalidade e Abstração (1983) he was an aspirant who later became a member, that he wrote in the manner of the Études Traditionnelles circle in order to please the shaykh, and that he was accepted at the first attempt while others had been applying yearly for twelve years. His self-description as [[muqaddam]] agrees with this dataset and the Brazilian sources and not with Sedgwick's obituary notice, which says [[khalifa]]; a participant's self-disclosure does not adjudicate a scholarly source, and the divergence stays recorded rather than resolved. Two further dated lectures bear on how he came into the order. In aula 206 (1 June 2013) he said that in '86 he was in the United States for the first time and that he met Whitall Perry there — a first-person placing of himself in the country in the year the Jardim series gives, although in that passage he named neither Bloomington nor the initiation. In aula 279 (17 January 2015) he described the route in: he reached Schuon's tariqa first through the Buddhist author Marco Pallis, and then Rama P. Coomaraswamy — whom he called a traditionalist Catholic theologian and Schuon's second-closest collaborator — put him in contact with it; his stated reason for joining was that the order was multi-confessional, so that belonging to it would not commit him to another religion. His own entry is self-disclosure and is accepted as such; what he says there about Pallis and about Coomaraswamy is a claim about third parties, carried attributed and, in Coomaraswamy's case, against Sedgwick rather than with him. None of this is quoted: the corpus text is a community transcription unchecked against the audio.",
       "sources": [
         "sedgwick-blog-brazil",
         "jardim-blog",
@@ -357,10 +358,11 @@
       "dateVerified": true,
       "place": "Bloomington, Indiana, USA",
       "title": "Death of Frithjof Schuon",
-      "text": "The order continues in autonomous branches, commonly identified with Seyyed Hossein Nasr (Washington) and Martin Lings (London) — a framing that coexists with the no-named-successor account. A fourth account exists and disagrees with the no-named-successor framing: in the Curso Online de Filosofia, aula 041 (16 January 2010), Carvalho said that when Schuon died Martin Lings became shaykh of the tariqa shortly afterwards, and described the office in strong terms — a shaykh has no friends, only disciples. In aula 209 (29 June 2013) he gave a different emphasis, saying Schuon's tariqa dissolved after his death amid scandals and quarrels and that several tariqas emerged from it, the principal one being, in his account, of strict Islamic observance despite the universalist language of its discourse. Both are his attributed characterizations; neither is corroborated here, and the Wikipedia-sourced account above is not displaced by them.",
+      "text": "The order continues in autonomous branches. The identification of the Washington branch with Seyyed Hossein Nasr is supported in Mark Sedgwick's own voice: his post of 16 January 2023 reports Nasr as the Shaykh of the Washington, DC branch of the order, authorizing a new independent Washington–Baltimore branch. The parallel identification of a London branch with Martin Lings circulates but is not supported by the Wikipedia article on Lings, which describes him as Schuon's disciple and expositor only; that identification is carried here as unconfirmed (to verify). Both identifications coexist with the no-named-successor account: per the Maryamiyya article, Schuon had resigned as shaykh in 1992 without naming a successor, each zawiya's muqaddam becoming an independent khalifa. A fourth account exists and disagrees with the no-named-successor framing: in the Curso Online de Filosofia, aula 041 (16 January 2010), Carvalho said that when Schuon died Martin Lings became shaykh of the tariqa shortly afterwards, and described the office in strong terms — a shaykh has no friends, only disciples. In aula 209 (29 June 2013) he gave a different emphasis, saying Schuon's tariqa dissolved after his death amid scandals and quarrels and that several tariqas emerged from it, the principal one being, in his account, of strict Islamic observance despite the universalist language of its discourse. Both are his attributed characterizations; neither is corroborated here, and the Wikipedia-sourced account above is not displaced by them.",
       "sources": [
         "wikipedia-schuon",
         "wikipedia-maryamiyya",
+        "sedgwick-blog-baltimore",
         "olavo-cof-041",
         "olavo-cof-209"
       ]
@@ -459,11 +461,12 @@
     },
     {
       "name": "Ananda K. Coomaraswamy",
-      "role": "Art historian (Boston Museum of Fine Arts); with Guénon and Schuon one of the school's three founding authors. Exact biographical dates to verify.",
+      "role": "Art historian (Boston Museum of Fine Arts); with Guénon and Schuon one of the school's three founding authors. Biographical dates verified: 22 August 1877 (Colombo) – 9 September 1947 (Needham, Massachusetts).",
       "dates": "1877–1947",
       "country": "Ceylon / UK / USA",
       "sources": [
-        "wikipedia-traditionalist-school"
+        "wikipedia-traditionalist-school",
+        "wikipedia-ananda"
       ]
     },
     {
@@ -516,7 +519,7 @@
     },
     {
       "name": "Michel Vâlsan (Mustafa Abd al-Aziz)",
-      "role": "Romanian diplomat and esoterist; led the Paris Alawiyya and separated it from Schuon's branch in 1950 with Guénon's approval, founding the sharia-observant 'Guénonian-orthodox' line; editor of Études Traditionnelles. Exact biographical dates to verify. Carvalho's account of the same split, in the Curso Online de Filosofia, aula 209 (29 June 2013), is consistent with this in outline and adds a name: he said the tariqas that had formed divided in two, between 'guénonistas' and the 'perenialistas' who followed Schuon, that the Guénonian half closed its orders to non-Muslims and required full observance of the sharia, and that roughly half of them were led above all by Vâlsan — a Romanian — and afterwards by Charles-André Gilis. Gilis is not otherwise documented in this dataset; the succession is recorded as Carvalho's attributed claim. An undated lecture (aula 414, no date recoverable from the file) gives a much more colourful account of how Vâlsan came to Guénon; it is not cited here because it cannot be dated and has not been checked against audio.",
+      "role": "Romanian diplomat and esoterist; led the Paris Alawiyya and separated it from Schuon's branch in 1950 with Guénon's approval, founding the sharia-observant 'Guénonian-orthodox' line; editor of Études Traditionnelles. Biographical dates verified: 1 February 1907 (Brăila) – 26 November 1974 (Antony); the Wikipedia article is internally inconsistent about his age at death, but not about the dates themselves. Carvalho's account of the same split, in the Curso Online de Filosofia, aula 209 (29 June 2013), is consistent with this in outline and adds a name: he said the tariqas that had formed divided in two, between 'guénonistas' and the 'perenialistas' who followed Schuon, that the Guénonian half closed its orders to non-Muslims and required full observance of the sharia, and that roughly half of them were led above all by Vâlsan — a Romanian — and afterwards by Charles-André Gilis. Gilis is not otherwise documented in this dataset; the succession is recorded as Carvalho's attributed claim. An undated lecture (aula 414, no date recoverable from the file) gives a much more colourful account of how Vâlsan came to Guénon; it is not cited here because it cannot be dated and has not been checked against audio.",
       "dates": "1907–1974",
       "country": "Romania / France",
       "sources": [
@@ -527,8 +530,8 @@
     },
     {
       "name": "Victor Danner",
-      "role": "Indiana University professor who founded the Bloomington chapter (1967), seeding the community that became the order's headquarters. Biographical dates to verify.",
-      "dates": "d. 1990",
+      "role": "Indiana University professor who founded the Bloomington chapter (1967), seeding the community that became the order's headquarters. Biographical dates verified: 22 October 1926 – 28 October 1990.",
+      "dates": "1926–1990",
       "country": "USA",
       "sources": [
         "wikipedia-danner"
@@ -557,11 +560,12 @@
     },
     {
       "name": "Marco Pallis",
-      "role": "British-Greek mountaineer and author on Tibetan Buddhism; Traditionalist author. Biographical dates to verify. In Olavo de Carvalho's Curso Online de Filosofia, aula 279 (17 January 2015), Carvalho said he first came to Schuon's tariqa through Pallis. That is the only account of Pallis's relation to the order carried here; it is an interested participant's, and it is not corroborated.",
+      "role": "British-Greek mountaineer and author on Tibetan Buddhism; Traditionalist author. Biographical dates verified: 19 June 1895 (Liverpool) – 5 June 1989. In Olavo de Carvalho's Curso Online de Filosofia, aula 279 (17 January 2015), Carvalho said he first came to Schuon's tariqa through Pallis. That is the only account of Pallis's relation to the order carried here; it is an interested participant's, and it is not corroborated.",
       "dates": "1895–1989",
       "country": "England",
       "sources": [
         "wikipedia-traditionalist-school",
+        "wikipedia-pallis",
         "olavo-cof-279"
       ]
     },
@@ -1249,7 +1253,7 @@
     },
     {
       "id": "urban-dance-of-masks",
-      "title": "A Dance of Masks: The Esoteric Ethics of Frithjof Schuon (in 'Crossing Boundaries', 2002)",
+      "title": "A Dance of Masks: The Esoteric Ethics of Frithjof Schuon (in 'Crossing Boundaries', Seven Bridges Press, 2002, pp. 406–440)",
       "url": "https://search.worldcat.org/title/crossing-boundaries-essays-on-the-ethical-status-of-mysticism/oclc/47989814",
       "publisher": "Hugh B. Urban / Seven Bridges Press (critical academic study)",
       "type": "academic"
@@ -1736,6 +1740,27 @@
       "url": "https://archive.org/details/COFemAudio",
       "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist, recorded lecture (Curso Online de Filosofia, aula 279), 17 January 2015. On the Maryamiyya he is a participant-witness on his own involvement and an attributed, interested voice on everyone else — in aula 094 he says he broke with the group, in aula 241 that he has his own reasons for resentment against Schuon, and in aula 242 that he was expelled after quarrelling with the shaykh. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred; no aula in this set is among the fourteen headers archive#20 found inconsistent with their neighbours). The text is a community transcription not checked against the audio, so every claim here is paraphrased, never quoted. Audio of record: the COFemAudio collection.",
       "type": "testimony"
+    },
+    {
+      "id": "fr-wikipedia-crise",
+      "title": "La Crise du monde moderne (fiche bibliographique)",
+      "url": "https://fr.wikipedia.org/wiki/La_Crise_du_monde_moderne",
+      "publisher": "Wikipédia (FR) — bibliographic record: Bossard, Paris, 1927",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-ananda",
+      "title": "Ananda Coomaraswamy",
+      "url": "https://en.wikipedia.org/wiki/Ananda_Coomaraswamy",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-pallis",
+      "title": "Marco Pallis",
+      "url": "https://en.wikipedia.org/wiki/Marco_Pallis",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
     }
   ]
 }
