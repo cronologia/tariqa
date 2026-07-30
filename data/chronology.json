@@ -1194,6 +1194,9 @@
     ]
   },
   "chronologySpine": {},
+  "placesMap": {
+    "note": "The order's history is geographic before it is anything else: Mostaganem, then Basel and Lausanne, then Bloomington, then São Paulo. Every recorded event that names a place is placed here. Several name two — a journey, or a decision taken in one place about another — and those are drawn at both, never at whichever happens to be written first. The year control is an aid, not a claim: it positions each place at a single first year, and this chronology deliberately leaves several dates unverified or disputed, including the date Olavo de Carvalho's break with the order is assigned to. A slider cannot show a disagreement, so read the dashed markers and the chronology entries for what is actually settled."
+  },
   "references": [
     {
       "id": "sedgwick-book",
