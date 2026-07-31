@@ -7,6 +7,42 @@
     "siteUrl": "https://cronologia.github.io/tariqa/",
     "lastUpdated": "2026-07-30",
     "dataQualityNote": "This is a work-in-progress dataset about a semi-private initiatic order and, in part, living people. It is compiled only from published scholarship (Mark Sedgwick's work is the academic backbone) and participants' own public writings; sympathetic, critical and apostate sources are labeled as such; contested characterizations are attributed, never asserted in the site's own voice; dates the sources dispute are flagged with a ? mark; and no private individuals are named. Corrections against published sources are welcome.",
+    "threads": {
+      "note": "These lanes are an editorial reading of this chronology, not a neutral index. They group events by the KIND of act — the order's institutional life, its doctrine and practice, ruptures within it, how it was received and contested from outside, and the Brazilian branch. Two choices are deliberate and worth stating here rather than burying: the order's internal separations are kept APART from outside criticism, so that a single 'controversies' lane cannot become a dumping ground for every critical perspective; and the lane holding outside contestation contains items of very different weight — a scholarly critique, a press polemic, and a 1991 criminal indictment that a judge criticised and which was dismissed — which are grouped because of who acts, not because they are equivalent. Events belong to several lanes where they belong to several storylines. What was considered and left out, and why, is recorded on issue #42.",
+      "lanes": [
+        {
+          "id": "institutional",
+          "label": "The order's institutional life",
+          "basis": "Affiliations, initiations and investitures, foundings of chapters and platforms, moves of the order's seat, retirement and succession, and the deaths of its principals. Follows the sequence this dataset already carries in its lineage and branch timeline rather than introducing a new grouping. Where an event's meaning is itself disputed — the 1936 assumption of an independent shaykhdom, which followers describe as a divine investiture and Sedgwick treats as self-authorisation — the lane records the act and leaves the competing readings in the event text, where they are attributed.",
+          "sources": [
+            "sedgwick-book"
+          ]
+        },
+        {
+          "id": "doctrine",
+          "label": "Doctrine, works and practice",
+          "basis": "The works this chronology carries and the developments that shaped the order's own practice — the Plains Indian dimension from 1947, the Marian visions of 1965 and the devotion that followed. Deliberately NOT the school's whole literary corpus: that belongs to the `perennialism` chronology, and this lane holds only what this dataset records, which is the order-relevant part. That division answers a question issue #42 raised rather than leaving it implicit."
+        },
+        {
+          "id": "ruptures",
+          "label": "Ruptures within the order",
+          "basis": "Separations among the order's own members — the 1950 Vâlsan split and the 1989 Brazilian break. Kept distinct from outside contestation on purpose: merging the two would make a single lane read as 'everything bad', which is exactly the dumping-ground failure issue #42 warned about. These are internal institutional events, and the sources describe them as disagreements over practice and authority.",
+          "sources": [
+            "sedgwick-book"
+          ]
+        },
+        {
+          "id": "reception",
+          "label": "Reception, critique and legal contestation",
+          "basis": "Acts by people outside the order's own membership that took a position on it: a philosophical critique (Borella 1997), a public polemic among traditionalist-Catholic writers (2025), the international attention drawn by a former member's political prominence (2019), and the 1991 Indiana criminal proceeding. The label names the legal item explicitly because grouping a dismissed indictment beside works of criticism must not be allowed to read as equating them; the 1991 entry keeps its own dating and attribution untouched."
+        },
+        {
+          "id": "brazil",
+          "label": "The Brazilian branch",
+          "basis": "The founding of the Brazilian group in 1986, its founder's break with Schuon, and the later public trajectory of that founder. A CHAPTER lane rather than a kind-of-act lane, and it deliberately cross-cuts the others — issue #42 proposed it precisely as a test that an event can carry more than one lane, and 1989 and 2019 are that test."
+        }
+      ]
+    },
     "vizChips": [
       {
         "href": "#lineage",
@@ -83,6 +119,9 @@
       "text": "René Guénon adopts Islam in the Shadhili lineage transmitted through Ivan Aguéli (Abd al-Hadi). The two dates in circulation answer different questions, and the English Wikipedia article carries both: it states he was initiated into Islamic esotericism from as early as 1910, and that he first adopted Islam in 1912. The initiatic attachment and the adoption of Islam are therefore dated separately — c. 1910 for the former, 1912 for the latter — and the initiation itself is dated variously c. 1910–1912 across sources. The date stays flagged pending scholarship that fixes it.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -94,6 +133,9 @@
       "text": "Guénon publishes his critical history of the Theosophical Society — the Traditionalist critique of modern 'counter-tradition' begins in print.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "doctrine"
       ]
     },
     {
@@ -105,6 +147,9 @@
       "text": "Guénon's book marks his break with the French Catholic intellectuals among whom he had first written.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "doctrine"
       ]
     },
     {
@@ -117,6 +162,9 @@
       "sources": [
         "wikipedia-guenon",
         "fr-wikipedia-crise"
+      ],
+      "threads": [
+        "doctrine"
       ]
     },
     {
@@ -128,6 +176,9 @@
       "text": "He lives there as Abd al-Wahid Yahya until his death, marrying Fatima Ibrahim (1934) and taking Egyptian citizenship (1949).",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -140,6 +191,9 @@
       "sources": [
         "wikipedia-maryamiyya",
         "wikipedia-schuon"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -152,6 +206,9 @@
       "sources": [
         "wikipedia-schuon",
         "sedgwick-blog-validity"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -164,6 +221,9 @@
       "sources": [
         "wikipedia-maryamiyya",
         "sedgwick-book"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -175,6 +235,9 @@
       "text": "Schuon directs the order from Lausanne for four decades (1941–1980).",
       "sources": [
         "wikipedia-maryamiyya"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -186,6 +249,9 @@
       "text": "After reading 'Black Elk Speaks', Schuon initiates contact with Lakota tradition-holders; he and his wife are later adopted into the Sioux family of Chief James Red Cloud (1959) and by Thomas Yellowtail into the Crow (1984).",
       "sources": [
         "wikipedia-schuon"
+      ],
+      "threads": [
+        "doctrine"
       ]
     },
     {
@@ -197,6 +263,9 @@
       "text": "Schuon publishes his best-known statement of perennialism (English translation 1953).",
       "sources": [
         "wikipedia-schuon"
+      ],
+      "threads": [
+        "doctrine"
       ]
     },
     {
@@ -209,6 +278,9 @@
       "sources": [
         "sedgwick-book",
         "wikipedia-valsan"
+      ],
+      "threads": [
+        "ruptures"
       ]
     },
     {
@@ -219,6 +291,9 @@
       "title": "Death of René Guénon",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -231,6 +306,9 @@
       "sources": [
         "wikipedia-maryamiyya",
         "sedgwick-blog-validity"
+      ],
+      "threads": [
+        "doctrine"
       ]
     },
     {
@@ -242,6 +320,9 @@
       "text": "Indiana University professor Victor Danner founds the Bloomington chapter, which becomes the order's most important American center.",
       "sources": [
         "wikipedia-danner"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -253,6 +334,9 @@
       "text": "The order formally becomes the Tariqa Shadhiliyya-Darqawiyya-Alawiyya-Maryamiyya.",
       "sources": [
         "wikipedia-maryamiyya"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -264,6 +348,9 @@
       "text": "The scholar of world religions joins the order after meeting Schuon, attending his first [[dhikr]] in Tehran — with Nasr, one of the two most famous academic followers per Sedgwick.",
       "sources": [
         "sedgwick-blog-smith"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -276,6 +363,9 @@
       "sources": [
         "wikipedia-schuon",
         "wikipedia-worldwisdom"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -287,6 +377,10 @@
       "text": "Seyyed Hossein Nasr becomes University Professor of Islamic Studies at George Washington University and founds the Foundation for Traditional Studies, publisher of the journal Sophia.",
       "sources": [
         "wikipedia-nasr"
+      ],
+      "threads": [
+        "institutional",
+        "doctrine"
       ]
     },
     {
@@ -305,6 +399,10 @@
         "olavo-cof-033",
         "olavo-cof-206",
         "olavo-cof-279"
+      ],
+      "threads": [
+        "brazil",
+        "institutional"
       ]
     },
     {
@@ -324,6 +422,10 @@
         "olavo-cof-241",
         "olavo-cof-242",
         "olavo-cof-279"
+      ],
+      "threads": [
+        "brazil",
+        "ruptures"
       ]
     },
     {
@@ -339,6 +441,9 @@
         "urban-dance-of-masks",
         "olavo-cof-094",
         "olavo-cof-241"
+      ],
+      "threads": [
+        "reception"
       ]
     },
     {
@@ -350,6 +455,9 @@
       "text": "Aged 85, Schuon resigns the direction of the order — per Wikipedia, without naming a successor, establishing instead independent zawiyas led by individual [[khalifa|khalifas]].",
       "sources": [
         "wikipedia-maryamiyya"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -365,6 +473,9 @@
         "sedgwick-blog-baltimore",
         "olavo-cof-041",
         "olavo-cof-209"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -375,6 +486,9 @@
       "title": "Death of Martin Lings",
       "sources": [
         "wikipedia-lings"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -387,6 +501,9 @@
       "sources": [
         "legacy-rama-obit",
         "academia-rama"
+      ],
+      "threads": [
+        "institutional"
       ]
     },
     {
@@ -399,6 +516,10 @@
       "sources": [
         "sedgwick-blog-bannon",
         "sedgwick-blog-brazil"
+      ],
+      "threads": [
+        "brazil",
+        "reception"
       ]
     },
     {
@@ -411,6 +532,10 @@
       "sources": [
         "wikipedia-borella",
         "religioperennis-fabbri"
+      ],
+      "threads": [
+        "reception",
+        "doctrine"
       ]
     },
     {
@@ -422,6 +547,9 @@
       "sources": [
         "sedgwick-blog-olavo-death",
         "wikipedia-olavo"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -437,6 +565,9 @@
         "onepeterfive-morello",
         "bigmodernism-jackson",
         "rorate-lamont"
+      ],
+      "threads": [
+        "reception"
       ]
     }
   ],
