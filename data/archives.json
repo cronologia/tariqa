@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-08-03",
   "snapshots": {
     "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf": {
       "refId": "religioperennis-rama",
@@ -175,6 +175,18 @@
       "archiveUrl": "https://web.archive.org/web/20251209030317/https://fr.wikipedia.org/wiki/Jean_Borella",
       "timestamp": "20251209030317",
       "checkedAt": "2026-07-24"
+    },
+    "https://fr.wikipedia.org/wiki/La_Crise_du_monde_moderne": {
+      "refId": "fr-wikipedia-crise",
+      "archiveUrl": "https://web.archive.org/web/20260118110119/https://fr.wikipedia.org/wiki/La_crise_du_monde_moderne",
+      "timestamp": "20260118110119",
+      "checkedAt": "2026-08-03"
+    },
+    "https://lccn.loc.gov/n2007060815": {
+      "refId": "worldcat-queiroz",
+      "archiveUrl": "https://web.archive.org/web/20260803100457/https://authorities.loc.gov/authority/n2007060815?searchFields=lccn",
+      "timestamp": "20260803100457",
+      "checkedAt": "2026-08-03"
     },
     "https://livingislam.org/ir/ez/dc/poqp_e.html": {
       "refId": "nasr-quantum-review",
