@@ -1333,8 +1333,9 @@
       "id": "sedgwick-book",
       "title": "Against the Modern World: Traditionalism and the Secret Intellectual History of the Twentieth Century",
       "url": "https://academic.oup.com/book/26926",
-      "publisher": "Mark Sedgwick / Oxford University Press (2004) — the academic backbone",
-      "type": "academic"
+      "publisher": "Mark Sedgwick / Oxford University Press, 2004",
+      "type": "academic",
+      "publisherNote": "the academic backbone"
     },
     {
       "id": "sedgwick-blog",
@@ -1347,8 +1348,9 @@
       "id": "sedgwick-aries-brazil",
       "title": "Traditionalism in Brazil: Sufism, Ta'i Chi, and Olavo de Carvalho — Aries 21:2 (2021)",
       "url": "https://brill.com/view/journals/arie/21/2/article-p159_1.xml",
-      "publisher": "Brill (paywalled — the key scholarly source on the Brazilian branch)",
-      "type": "academic"
+      "publisher": "Brill",
+      "type": "academic",
+      "publisherNote": "paywalled — the key scholarly source on the Brazilian branch"
     },
     {
       "id": "sedgwick-blog-brazil",
@@ -1389,14 +1391,15 @@
       "id": "urban-dance-of-masks",
       "title": "A Dance of Masks: The Esoteric Ethics of Frithjof Schuon (in 'Crossing Boundaries', Seven Bridges Press, 2002, pp. 406–440)",
       "url": "https://search.worldcat.org/title/crossing-boundaries-essays-on-the-ethical-status-of-mysticism/oclc/47989814",
-      "publisher": "Hugh B. Urban / Seven Bridges Press (critical academic study)",
-      "type": "academic"
+      "publisher": "Hugh B. Urban / Seven Bridges Press",
+      "type": "academic",
+      "publisherNote": "critical academic study"
     },
     {
       "id": "academia-rama",
       "title": "Rama Coomaraswamy: between Perennialism and traditional Catholicism",
       "url": "https://www.academia.edu/3393758/Rama_Coomaraswamy_between_Perennialism_and_traditional_Catholicism",
-      "publisher": "Academia.edu (academic paper)",
+      "publisher": "Academia.edu",
       "type": "academic"
     },
     {
@@ -1501,8 +1504,9 @@
       "id": "en-academic-rama",
       "title": "Rama Coomaraswamy — mirror of a since-deleted Wikipedia article",
       "url": "https://en-academic.com/dic.nsf/enwiki/548402",
-      "publisher": "en-academic.com (unattributed mirror of a deleted Wikipedia article — weak source, cited here only for claims explicitly flagged unverified)",
-      "type": "reference"
+      "publisher": "en-academic.com",
+      "type": "encyclopedia",
+      "publisherNote": "unattributed mirror of a deleted Wikipedia article — weak source, cited here only for claims explicitly flagged unverified"
     },
     {
       "id": "legacy-rama-obit",
@@ -1515,36 +1519,41 @@
       "id": "religioperennis-rama",
       "title": "Rama P. Coomaraswamy (1929–2006) — memorial by Stoddart & de Azevedo",
       "url": "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf",
-      "publisher": "religioperennis.org (participant/sympathetic — labeled)",
-      "type": "analysis"
+      "publisher": "religioperennis.org",
+      "type": "analysis",
+      "publisherNote": "participant/sympathetic — labeled"
     },
     {
       "id": "accuratenews",
       "title": "Archive of 1991 press coverage of the Schuon case",
       "url": "https://accuratenews.net/",
-      "publisher": "accuratenews.net (pro-Schuon archive of contemporaneous coverage — labeled)",
-      "type": "analysis"
+      "publisher": "accuratenews.net",
+      "type": "analysis",
+      "publisherNote": "pro-Schuon archive of contemporaneous coverage — labeled"
     },
     {
       "id": "jardim-blog",
       "title": "Adubando o Jardim das Aflições — series on Olavo's Maryamiyya years (2017, PT)",
       "url": "https://ojardimdasaflicoes.wordpress.com/2017/05/28/parte-iii-1986-pode-nao-ser-maria-mas-esta-cheio-de-graca-a-entrada-do-macumbeiro-para-a-tariqua-mariamyya/",
-      "publisher": "O Jardim das Aflições blog (hostile to Olavo — labeled; uncorroborated documents)",
-      "type": "analysis"
+      "publisher": "O Jardim das Aflições blog",
+      "type": "analysis",
+      "publisherNote": "hostile to Olavo — labeled; uncorroborated documents"
     },
     {
       "id": "catholicculture-mirus",
       "title": "Occult subversion of traditional Catholicism (June 2025)",
       "url": "https://www.catholicculture.org/commentary/occult-subversion-traditional-catholicism/",
-      "publisher": "CatholicCulture.org (Catholic-critical view of the crossover — labeled)",
-      "type": "analysis"
+      "publisher": "CatholicCulture.org",
+      "type": "analysis",
+      "publisherNote": "Catholic-critical view of the crossover — labeled"
     },
     {
       "id": "olavo-influencias",
       "title": "Influências discretas — Olavo de Carvalho on Guénon and Schuon (Jornal do Brasil, 8 May 2008)",
       "url": "https://web.archive.org/web/20191221182936/http://olavodecarvalho.org/influencias-discretas/",
-      "publisher": "olavodecarvalho.org via Internet Archive (the live domain now serves corrupted content). NOTE: a third-person essay on Guénon and Schuon — it contains NO first-person disclosure of the author's own membership, role or years in the order, and must not be cited for those. An earlier title here described it as 'his own account of his tariqa years', which overstated the source.",
-      "type": "primary"
+      "publisher": "olavodecarvalho.org via Internet Archive",
+      "type": "archive",
+      "publisherNote": "the live domain now serves corrupted content. A third-person essay on Guénon and Schuon — it contains NO first-person disclosure of the author's own membership, role or years in the order, and must not be cited for those. An earlier title here described it as 'his own account of his tariqa years', which overstated the source."
     },
     {
       "id": "sedgwick-atmw-archive",
@@ -1557,29 +1566,33 @@
       "id": "rama-validity-wayback",
       "title": "Rama Coomaraswamy, 'On the Validity of My Ordination' (the-pope.com, via Wayback)",
       "url": "https://web.archive.org/web/20061130041405/http://www.the-pope.com/validity.html",
-      "publisher": "the-pope.com via Internet Archive (primary — his own account)",
-      "type": "primary"
+      "publisher": "the-pope.com via Internet Archive",
+      "type": "archive",
+      "publisherNote": "primary — his own account"
     },
     {
       "id": "rama-mteresa-wayback",
       "title": "Rama Coomaraswamy's published correspondence with Mother Teresa (via Wayback)",
       "url": "https://web.archive.org/web/20061130042439/http://www.the-pope.com/mteresa1.html",
-      "publisher": "the-pope.com via Internet Archive (primary — his own uncorroborated account)",
-      "type": "primary"
+      "publisher": "the-pope.com via Internet Archive",
+      "type": "archive",
+      "publisherNote": "primary — his own uncorroborated account"
     },
     {
       "id": "bunker-olavo",
       "title": "A verdade sobre Olavo de Carvalho, o guru (May 2021, PT)",
       "url": "https://bunkerdacultura.blogspot.com/2021/05/a-verdade-sobre-olavo-de-carvalho-o-guru.html",
-      "publisher": "Bunker da Cultura (critical Brazilian blog — labeled)",
-      "type": "analysis"
+      "publisher": "Bunker da Cultura",
+      "type": "analysis",
+      "publisherNote": "critical Brazilian blog — labeled"
     },
     {
       "id": "sedgwick-blog-brazil-today",
       "title": "Traditionalism in Brazil today (guest post by Felipe Souza on the Traditionalists blog, October 2023)",
       "url": "https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
-      "publisher": "Felipe Souza (guest post on Mark Sedgwick's Traditionalists blog — attributed to Souza, not Sedgwick)",
-      "type": "academic"
+      "publisher": "Felipe Souza",
+      "type": "academic",
+      "publisherNote": "guest post on Mark Sedgwick's Traditionalists blog — attributed to Souza, not Sedgwick"
     },
     {
       "id": "sedgwick-obit-cutsinger",
@@ -1592,8 +1605,9 @@
       "id": "upton-confession",
       "title": "Charles Upton, 'The Long Road to Sacred Activism: A Confession' (2017)",
       "url": "https://charles-upton.com/2017/06/23/the-long-road-to-sacred-activism-a-confession/",
-      "publisher": "charles-upton.com (primary — self-disclosure)",
-      "type": "primary"
+      "publisher": "charles-upton.com",
+      "type": "web",
+      "publisherNote": "primary — self-disclosure"
     },
     {
       "id": "tandfonline-bloomington",
@@ -1620,15 +1634,17 @@
       "id": "religioperennis-fabbri",
       "title": "Editorial on Jean Borella — Vincit Omnia Veritas III,1",
       "url": "https://www.religioperennis.org/documents/Editorial/Issue5/editorialIII1.pdf",
-      "publisher": "Renaud Fabbri / religioperennis.org (Schuonian — critical of Borella, labeled)",
-      "type": "analysis"
+      "publisher": "Renaud Fabbri / religioperennis.org",
+      "type": "analysis",
+      "publisherNote": "Schuonian — critical of Borella, labeled"
     },
     {
       "id": "angelico-borella",
       "title": "Jean Borella — author page",
       "url": "https://angelicopress.com/pages/jean-borella",
-      "publisher": "Angelico Press (publisher self-description — labeled)",
-      "type": "primary"
+      "publisher": "Angelico Press",
+      "type": "official",
+      "publisherNote": "publisher self-description — labeled"
     },
     {
       "id": "sedgwick-blog-catholic-guenonian",
@@ -1641,22 +1657,25 @@
       "id": "philitt-borella",
       "title": "Jean Borella: à la recherche de l'ésotérisme catholique (2017)",
       "url": "https://philitt.fr/2017/11/23/jean-borella-a-la-recherche-de-lesoterisme-catholique/",
-      "publisher": "Philitt (sympathetic profile — labeled)",
-      "type": "analysis"
+      "publisher": "Philitt",
+      "type": "analysis",
+      "publisherNote": "sympathetic profile — labeled"
     },
     {
       "id": "calcatholic-riess",
       "title": "From re-prints to new books (3 April 2013; text supplied by John Riess)",
       "url": "https://www.cal-catholic.com/from-re-prints-to-new-books/",
-      "publisher": "California Catholic Daily (participant self-description — labeled)",
-      "type": "news"
+      "publisher": "California Catholic Daily",
+      "type": "news",
+      "publisherNote": "participant self-description — labeled"
     },
     {
       "id": "angelico-about",
       "title": "About us — Angelico Press",
       "url": "https://angelicopress.com/pages/about-us",
-      "publisher": "Angelico Press (publisher self-description — labeled)",
-      "type": "primary"
+      "publisher": "Angelico Press",
+      "type": "official",
+      "publisherNote": "publisher self-description — labeled"
     },
     {
       "id": "sedgwick-blog-baltimore",
@@ -1669,8 +1688,9 @@
       "id": "cutsinger-net-bio",
       "title": "James S. Cutsinger — Biography",
       "url": "https://www.cutsinger.net/biography/",
-      "publisher": "cutsinger.net (primary — his own site)",
-      "type": "primary"
+      "publisher": "cutsinger.net",
+      "type": "web",
+      "publisherNote": "primary — his own site"
     },
     {
       "id": "wikipedia-wolfgang-smith",
@@ -1683,8 +1703,9 @@
       "id": "sacredweb-smith-memoriam",
       "title": "In Memoriam: Wolfgang Smith (Sacred Web vol. 51)",
       "url": "https://www.sacredweb.com/volume-51/in-memoriam-wolfgang-smith/",
-      "publisher": "Sacred Web (perennialist journal — sympathetic, labeled)",
-      "type": "analysis"
+      "publisher": "Sacred Web",
+      "type": "analysis",
+      "publisherNote": "perennialist journal — sympathetic, labeled"
     },
     {
       "id": "nasr-quantum-review",
@@ -1697,29 +1718,33 @@
       "id": "wmreview-davis",
       "title": "The Conservative Case for Antichrist (3 June 2025)",
       "url": "https://www.wmreview.org/p/davis-review-morello",
-      "publisher": "Michael Warren Davis / WM Review (critical review — labeled)",
-      "type": "analysis"
+      "publisher": "Michael Warren Davis / WM Review",
+      "type": "analysis",
+      "publisherNote": "critical review — labeled"
     },
     {
       "id": "onepeterfive-morello",
       "title": "To Achieve Clarity, to Avoid Scandal: Some Statements on Christian Re-Enchantment (11 June 2025)",
       "url": "https://onepeterfive.com/to-achieve-clarity-to-avoid-scandal-some-statements-on-christian-re-enchantment/",
-      "publisher": "Sebastian Morello / OnePeterFive (participant reply — labeled)",
-      "type": "analysis"
+      "publisher": "Sebastian Morello / OnePeterFive",
+      "type": "analysis",
+      "publisherNote": "participant reply — labeled"
     },
     {
       "id": "bigmodernism-jackson",
       "title": "Defenders of Occultic Writing in Traditional Catholic Media (13 June 2025)",
       "url": "https://bigmodernism.substack.com/p/defenders-of-occultic-writing-in",
-      "publisher": "Chris Jackson / Big Modernism (critical — labeled)",
-      "type": "analysis"
+      "publisher": "Chris Jackson / Big Modernism",
+      "type": "analysis",
+      "publisherNote": "critical — labeled"
     },
     {
       "id": "rorate-lamont",
       "title": "Neoplatonism and the Antichrist: Against 'Christian Hermeticism' (December 2025)",
       "url": "https://rorate-caeli.blogspot.com/2025/12/neoplatonism-and-antichrist-against.html",
-      "publisher": "John Lamont / Rorate Caeli (critical — labeled)",
-      "type": "analysis"
+      "publisher": "John Lamont / Rorate Caeli",
+      "type": "analysis",
+      "publisherNote": "critical — labeled"
     },
     {
       "id": "wikipedia-azevedo",
@@ -1733,14 +1758,15 @@
       "title": "Vasconcellos Queiroz, Alberto, 1963– (name authority record, LCCN n2007060815)",
       "url": "https://lccn.loc.gov/n2007060815",
       "publisher": "Library of Congress Name Authority File",
-      "type": "reference"
+      "type": "database"
     },
     {
       "id": "sedgwick-blog-validity",
       "title": "The “validity” of the Maryamiyya (14 July 2010)",
       "url": "https://traditionalistblog.blogspot.com/2010/07/validity-of-maryamiyya.html",
-      "publisher": "Mark Sedgwick (Aarhus University), Traditionalists blog — the field's leading scholar writing on his own moderated blog; labeled as such",
-      "type": "academic"
+      "publisher": "Mark Sedgwick (Aarhus University), Traditionalists blog",
+      "type": "academic",
+      "publisherNote": "the field's leading scholar writing on his own moderated blog; labeled as such"
     },
     {
       "id": "sedgwick-atmw-ch-maryamiyya",
