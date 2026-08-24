@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-24",
   "snapshots": {
     "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf": {
       "refId": "religioperennis-rama",
@@ -289,6 +289,18 @@
       "archiveUrl": "https://web.archive.org/web/20260720013504/https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
       "timestamp": "20260720013504",
       "checkedAt": "2026-07-24"
+    },
+    "https://web.archive.org/web/20061130041405/http://www.the-pope.com/validity.html": {
+      "refId": "rama-validity-wayback",
+      "archiveUrl": "https://web.archive.org/web/20260727101046/http://www.the-pope.com/validity.html",
+      "timestamp": "20260727101046",
+      "checkedAt": "2026-08-24"
+    },
+    "https://web.archive.org/web/20061130042439/http://www.the-pope.com/mteresa1.html": {
+      "refId": "rama-mteresa-wayback",
+      "archiveUrl": "https://web.archive.org/web/20260824071923/http://www.the-pope.com/mteresa1.html",
+      "timestamp": "20260824071923",
+      "checkedAt": "2026-08-24"
     },
     "https://web.archive.org/web/20191221182936/http://olavodecarvalho.org/influencias-discretas/": {
       "refId": "olavo-influencias",
