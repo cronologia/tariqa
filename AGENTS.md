@@ -29,6 +29,7 @@ data/archives.json            GENERATED — Wayback snapshot cache written by
                               scripts/archive-refs.js in CI (never hand-edited)
 src/styles.css                Stylesheet (copied into the build)
 src/river.js             Time-river filters, find box and reading window (core#108); copied into the build only when meta.layout is "river"
+.template-drift.json      The template build.js functions this site customises on purpose, with reasons (checked by core tools/build-drift.py)
 scripts/validate-data.js      Schema check (runs in CI before the build)
 scripts/sync-glossary-terms.js  Refresh the vendored glossary term ids (out-of-band)
 scripts/translate.js          Translation-cache manager: `--stats` reports pt/es coverage,
