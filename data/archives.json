@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-12",
   "snapshots": {
     "http://www.religioperennis.org/documents/stoddart/On_Rama_Coomaraswamy-by_Stoddart_and_de_Azevedo.pdf": {
       "refId": "religioperennis-rama",
@@ -337,6 +337,12 @@
       "archiveUrl": "https://web.archive.org/web/20230324081759/https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers",
       "timestamp": "20230324081759",
       "checkedAt": "2026-07-24"
+    },
+    "https://www.legacy.com/us/obituaries/legacyremembers/rama-coomaraswamy-obituary?id=25886896": {
+      "refId": "legacy-rama-obit",
+      "archiveUrl": "https://web.archive.org/web/20261005144405/https://www.legacy.com/us/obituaries/legacyremembers/rama-coomaraswamy-obituary?id=25886896",
+      "timestamp": "20261005144405",
+      "checkedAt": "2026-10-12"
     },
     "https://www.religioperennis.org/documents/Editorial/Issue5/editorialIII1.pdf": {
       "refId": "religioperennis-fabbri",
